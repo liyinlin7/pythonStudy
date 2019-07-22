@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <title>前台请求后台</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css')}}">
+</head>
+<body>
+    <div class="pop_con">
+        <form action="/commit">
+            <h3>用户登录</h3>
+            <div id="123">
+                <label>用户名：</label>
+                <input type="text" name="username" placeholder="请输入用户名">
+            </div>
+            <div>
+                <label>密码：</label>
+                <input type="password" name="psw" placeholder="请输入密码">
+            </div>
+            <div>
+                <input type="submit" value="登录">
+                <input type="reset" value="重置">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
