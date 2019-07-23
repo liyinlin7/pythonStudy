@@ -5,6 +5,7 @@ from time import sleep
 
 def byElement():
     """
+    22天第43节课
     find_element()
     find_element_by_
     获取文本，获取title，获取<a>标签的链接地址
@@ -21,12 +22,12 @@ def byElement():
     driver.find_element(By.XPATH, "//*[@id='passwordA']").send_keys("By.XPATH")
     # driver.find_element_by_xpath("//*[@id='passwordA']").send_keys("xpath")
 
-    # driver.find_element(By.CLASS_NAME)
-    # driver.find_element(By.ID)
-    # driver.find_element(By.NAME)
-    # driver.find_element(By.LINK_TEXT)
-    # driver.find_element(By.PARTIAL_LINK_TEXT)
-    # driver.find_element(By.TAG_NAME)
+    # driver.find_element(By.CLASS_NAME， )
+    # driver.find_element(By.ID， )
+    # driver.find_element(By.NAME， )
+    # driver.find_element(By.LINK_TEXT， )
+    # driver.find_element(By.PARTIAL_LINK_TEXT， )
+    # driver.find_element(By.TAG_NAME， )
 
     # 获取弹框的内容
     driver.find_element_by_css_selector("#alert").click()
