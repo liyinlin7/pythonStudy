@@ -9,6 +9,7 @@ def chuang_kou_ju_bin():
     iframe 的定位
     :return:
     """
+
     driver = webdriver.Chrome()
     url = r"D:\Python项目\自动化学习项目\Python22-09\static\html\注册实例.html"
     driver.get(url)
@@ -35,8 +36,13 @@ def chuang_kou_ju_bin():
             cur_handleA = driver.current_window_handle
     print(cur_handleA)
     print(handles)
+    sleep(3)
+
+    # 关闭了句柄“注册A页面”
+    driver.close()
 
     # 定位到“注册实例”HTML页面，
+    sleep(3)
     driver.switch_to.window(handles[0])
     driver.find_element_by_css_selector("#ZCB").click()
     sleep(3)
