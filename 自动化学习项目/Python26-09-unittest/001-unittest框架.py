@@ -36,10 +36,10 @@ class mytest(unittest.TestCase):
 
     # 具体的测试用例，一定要以test开头
     def test_sum(self):
-        self.assertEqual(myclass.sum(self.a,self.b),4,'test sum fail')
+        self.assertEqual(myclass.sum(self.a, self.b), 4, 'test sum fail')
 
     def test_sub(self):
-        self.assertEqual(myclass.sub(self.a,self.b),2,'test sub fail')
+        self.assertEqual(myclass.sub(self.a, self.b), 2, 'test sub fail')
 
 
 if __name__=='__main__':
