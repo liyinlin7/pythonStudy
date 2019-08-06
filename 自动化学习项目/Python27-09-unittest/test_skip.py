@@ -1,4 +1,5 @@
 # 跳过测试和预期失败
+# 一般作为脚本调试用
 import unittest
 
 
@@ -6,11 +7,13 @@ class Test1(unittest.TestCase):
     def setUp(self):
         print("test1 start")
 
-    @unittest.skipIf(4>3,"skip Test_c")
+    # 条件为真的时候跳过用例
+    @unittest.skipIf(4 > 3, "skip Test_c")
     def test_c(self):
         print("test_c")
 
-    @unittest.skipUnless(1<0,"skip Test_b")
+    # 条件为假的时候跳过用例
+    @unittest.skipUnless(1 < 0, "skip Test_b")
     def test_b(self):
         print("test_b")
 
@@ -18,7 +21,8 @@ class Test1(unittest.TestCase):
         print("test1 end")
 
 
-# @unittest.skip("skip Test_2")
+# 跳过
+@unittest.skip("skip Test_2")
 class Test2(unittest.TestCase):
     def setUp(self):
         print("test2 start")
