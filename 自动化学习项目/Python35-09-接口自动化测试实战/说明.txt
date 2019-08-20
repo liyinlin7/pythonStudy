@@ -1,0 +1,15 @@
+一、API测试项目简介
+1）项目名称：进行天气API接口测试
+2）项目来源：https://www.sojson.com/blog/305.html
+3）接口URL：http://t.weather.sojson.com/api/weather/city/+city_code
+4）格式化JSON：http://www.bejson.com/
+                或 浏览器自带F12->Preview
+5）请求方式：GET
+6）参数说明：city_code表示城市的id码，由9为纯数字组成，拼接在以上接口URL的未尾。
+各个城市的city_code码获取地址：http://cdn.sojson.com/_city.json
+二、项目API调试
+测试案例描述：本次以北京作为被测城市（“city_code”：“101010100”），请求对应城市的天气数据
+，请求正常情况下，预期将会返回：前一天（yesterday）、当天及未来4天（forecast），一共6天的北京
+天气数据。
+http://t.weather.sojson.com/api/weather/city/101010100
+使用代码实现【weather_api_test.py】
