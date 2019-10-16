@@ -27,7 +27,7 @@ def swipeLeft():
     l = get_size()
     x1=int(l[0]*0.9)
     x2=int(l[0]*0.2)
-    y1=int(l[0]*0.5)
+    y1=int(l[0]*0.5) 
     driver.swipe(x1,y1,x2,y1,1000)
 
 # 向上滑动
