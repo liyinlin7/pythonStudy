@@ -1,5 +1,5 @@
 import unittest
-from driver.driver import *
+from driver import browser
 
 
 class StartEnd(unittest.TestCase):

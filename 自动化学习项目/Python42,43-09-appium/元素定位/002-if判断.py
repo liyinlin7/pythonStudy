@@ -1,5 +1,8 @@
 from appium import webdriver
 
+
+# 不能用 if 判断是否找到  元素 定位
+
 # 设置设备
 desired_cape={}
 desired_cape['platformName']='Android'

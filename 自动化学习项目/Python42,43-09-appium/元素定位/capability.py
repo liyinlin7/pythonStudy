@@ -2,17 +2,18 @@ from appium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
 # 设置设备
-desired_cape={}
-desired_cape['platformName']='Android'
-desired_cape['deviceName']='127.0.0.1:62025'
-desired_cape['platformVersion']='7.1.2'
-desired_cape['app']=r'd:\kaoyan3.1.0.apk'
-desired_cape['appPackage']='com.tal.kaoyan'
-desired_cape['appActivity']='com.tal.kaoyan.ui.activity.SplashActivity'
-desired_cape['noReset']='true'
+desired_cape = {}
+desired_cape['platformName'] = 'Android'
+desired_cape['deviceName'] = '127.0.0.1:62001'
+desired_cape['platformVersion'] = '5.1.1'
+desired_cape['app'] = r'd:\kaoyan3.1.0.apk'
+desired_cape['appPackage'] = 'com.tal.kaoyan'
+desired_cape['appActivity'] = 'com.tal.kaoyan.ui.activity.SplashActivity'
+desired_cape['noReset'] = 'true'
 
-driver=webdriver.Remote("http://127.0.0.1:4723/wd/hub",desired_cape)
+driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_cape)
 driver.implicitly_wait(5)
+
 
 def check_cancelBtn():
     print("check_cancelBtn")
@@ -24,6 +25,7 @@ def check_cancelBtn():
     else:
         cancelBtn.click()
 
+
 def check_skipBtn():
     print("check_skipBtn")
     try:
@@ -33,6 +35,7 @@ def check_skipBtn():
         print("没有“跳过”按钮")
     else:
         skipBtn.click()
+
 
 check_cancelBtn()
 check_skipBtn()
