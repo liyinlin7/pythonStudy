@@ -1,0 +1,11 @@
+#key: value=>切记冒号后面要有一个空格
+
+platformName: Android
+deviceName: 127.0.0.1:62001
+platformVersion: 5.1.1
+appname: kaoyan3.1.0.apk
+appPackage: com.tal.kaoyan
+appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+noReset: False
+ip: 127.0.0.1
+port: 4723

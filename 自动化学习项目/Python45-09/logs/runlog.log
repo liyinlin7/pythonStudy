@@ -1,0 +1,187 @@
+2019-09-09 22:17:49,677 run.py[line:20] INFO start run test case...
+2019-09-09 22:17:49,677 myunit.py[line:8] INFO ====setUp()====
+2019-09-09 22:17:49,680 desired_caps.py[line:30] INFO start app...
+2019-09-09 22:18:03,190 test_login.py[line:10] INFO ======test_login_001=====
+2019-09-09 22:18:03,190 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-09 22:18:03,198 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-09 22:18:03,907 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-09 22:18:04,599 loginView.py[line:24] INFO loging_action
+2019-09-09 22:18:04,599 loginView.py[line:25] INFO username is : DAwang001
+2019-09-09 22:18:06,019 loginView.py[line:28] INFO password is : DAwang001
+2019-09-09 22:18:06,551 loginView.py[line:31] INFO click loginBtn
+2019-09-09 22:18:07,108 loginView.py[line:33] INFO login finished!
+2019-09-09 22:18:07,108 loginView.py[line:37] INFO check_loginStatus
+2019-09-09 22:18:09,249 loginView.py[line:47] INFO login success!
+2019-09-09 22:18:09,249 loginView.py[line:53] INFO logout_action
+2019-09-09 22:18:11,715 myunit.py[line:12] INFO ======tearDown=====
+2019-09-09 22:18:17,639 myunit.py[line:8] INFO ====setUp()====
+2019-09-09 22:18:17,642 desired_caps.py[line:30] INFO start app...
+2019-09-09 22:18:31,525 test_login.py[line:17] INFO ======test_login_002=====
+2019-09-09 22:18:31,525 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-09 22:18:31,526 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-09 22:18:32,056 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-09 22:18:32,770 loginView.py[line:24] INFO loging_action
+2019-09-09 22:18:32,771 loginView.py[line:25] INFO username is : DAwang002
+2019-09-09 22:18:34,308 loginView.py[line:28] INFO password is : DAwang123
+2019-09-09 22:18:34,836 loginView.py[line:31] INFO click loginBtn
+2019-09-09 22:18:35,365 loginView.py[line:33] INFO login finished!
+2019-09-09 22:18:35,365 loginView.py[line:37] INFO check_loginStatus
+2019-09-09 22:18:38,099 loginView.py[line:47] INFO login success!
+2019-09-09 22:18:38,099 loginView.py[line:53] INFO logout_action
+2019-09-09 22:18:39,999 myunit.py[line:12] INFO ======tearDown=====
+2019-09-09 22:18:45,954 myunit.py[line:8] INFO ====setUp()====
+2019-09-09 22:18:45,957 desired_caps.py[line:30] INFO start app...
+2019-09-09 22:19:00,022 test_login.py[line:24] INFO ======test_login_eror=====
+2019-09-09 22:19:00,022 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-09 22:19:00,024 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-09 22:19:00,567 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-09 22:19:01,298 loginView.py[line:24] INFO loging_action
+2019-09-09 22:19:01,298 loginView.py[line:25] INFO username is : 6666
+2019-09-09 22:19:02,846 loginView.py[line:28] INFO password is : 2222
+2019-09-09 22:19:03,420 loginView.py[line:31] INFO click loginBtn
+2019-09-09 22:19:03,943 loginView.py[line:33] INFO login finished!
+2019-09-09 22:19:03,944 loginView.py[line:37] INFO check_loginStatus
+2019-09-09 22:19:09,476 loginView.py[line:43] ERROR login fail
+2019-09-09 22:19:09,476 common_fun.py[line:58] INFO get LoginFail screenshot
+2019-09-09 22:19:09,706 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:34:17,318 run.py[line:19] INFO start run test case...
+2019-09-11 20:34:17,327 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:34:17,353 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:34:39,089 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:34:39,092 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:34:44,159 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:34:44,162 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:38:50,436 run.py[line:19] INFO start run test case...
+2019-09-11 20:38:50,437 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:38:50,448 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:39:17,469 test_login.py[line:10] INFO ====test_login_001====
+2019-09-11 20:39:17,469 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:39:17,504 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:39:18,750 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:39:18,844 loginView.py[line:24] INFO loging_action
+2019-09-11 20:39:18,845 loginView.py[line:25] INFO username is : DAwang001
+2019-09-11 20:39:20,435 loginView.py[line:28] INFO password is : DAwang001
+2019-09-11 20:39:21,015 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:39:21,543 loginView.py[line:33] INFO login finished!
+2019-09-11 20:39:21,544 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:39:24,573 loginView.py[line:47] INFO login success!
+2019-09-11 20:39:24,573 loginView.py[line:53] INFO logout_action
+2019-09-11 20:39:26,544 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:39:32,514 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:39:32,517 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:39:49,021 test_login.py[line:17] INFO ====test_login_002===
+2019-09-11 20:39:49,022 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:39:49,022 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:39:49,460 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:39:50,184 loginView.py[line:24] INFO loging_action
+2019-09-11 20:39:50,184 loginView.py[line:25] INFO username is : DAwang002
+2019-09-11 20:39:51,612 loginView.py[line:28] INFO password is : DAwang123
+2019-09-11 20:39:52,171 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:39:52,710 loginView.py[line:33] INFO login finished!
+2019-09-11 20:39:52,710 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:39:55,657 loginView.py[line:47] INFO login success!
+2019-09-11 20:39:55,657 loginView.py[line:53] INFO logout_action
+2019-09-11 20:39:57,654 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:40:03,649 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:40:03,653 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:40:19,180 test_login.py[line:24] INFO ====test_login_error====
+2019-09-11 20:40:19,181 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:40:19,182 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:40:19,677 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:40:20,440 loginView.py[line:24] INFO loging_action
+2019-09-11 20:40:20,440 loginView.py[line:25] INFO username is : 6666
+2019-09-11 20:40:21,875 loginView.py[line:28] INFO password is : 2222
+2019-09-11 20:40:22,440 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:40:22,993 loginView.py[line:33] INFO login finished!
+2019-09-11 20:40:22,993 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:40:28,445 loginView.py[line:43] ERROR login fail
+2019-09-11 20:40:28,445 common_fun.py[line:58] INFO get LoginFail screenshot
+2019-09-11 20:40:28,738 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:48:07,286 run.py[line:19] INFO start run test case...
+2019-09-11 20:48:07,287 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:48:07,289 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:48:22,359 test_login.py[line:10] INFO ====test_login_001====
+2019-09-11 20:48:22,360 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:48:22,362 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:48:22,872 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:48:23,656 loginView.py[line:24] INFO loging_action
+2019-09-11 20:48:23,656 loginView.py[line:25] INFO username is : DAwang001
+2019-09-11 20:48:25,459 loginView.py[line:28] INFO password is : DAwang001
+2019-09-11 20:48:26,013 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:48:27,158 loginView.py[line:33] INFO login finished!
+2019-09-11 20:48:27,160 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:48:29,603 loginView.py[line:47] INFO login success!
+2019-09-11 20:48:29,604 loginView.py[line:53] INFO logout_action
+2019-09-11 20:48:31,592 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:48:37,568 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:48:37,573 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:48:53,009 test_login.py[line:17] INFO ====test_login_002===
+2019-09-11 20:48:53,014 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:48:53,018 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:48:53,471 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:48:54,239 loginView.py[line:24] INFO loging_action
+2019-09-11 20:48:54,240 loginView.py[line:25] INFO username is : DAwang002
+2019-09-11 20:48:55,711 loginView.py[line:28] INFO password is : DAwang123
+2019-09-11 20:48:56,272 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:48:56,809 loginView.py[line:33] INFO login finished!
+2019-09-11 20:48:56,809 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:48:59,908 loginView.py[line:47] INFO login success!
+2019-09-11 20:48:59,910 loginView.py[line:53] INFO logout_action
+2019-09-11 20:49:01,840 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:49:07,867 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:49:07,870 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:49:23,113 test_login.py[line:24] INFO ====test_login_error====
+2019-09-11 20:49:23,115 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:49:23,119 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:49:23,578 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:49:24,350 loginView.py[line:24] INFO loging_action
+2019-09-11 20:49:24,350 loginView.py[line:25] INFO username is : 6666
+2019-09-11 20:49:25,845 loginView.py[line:28] INFO password is : 2222
+2019-09-11 20:49:26,421 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:49:26,946 loginView.py[line:33] INFO login finished!
+2019-09-11 20:49:26,947 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:49:32,362 loginView.py[line:43] ERROR login fail
+2019-09-11 20:49:32,362 common_fun.py[line:58] INFO get LoginFail screenshot
+2019-09-11 20:49:32,665 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:50:20,518 run.py[line:19] INFO start run test case...
+2019-09-11 20:50:20,518 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:50:20,521 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:50:35,040 test_login.py[line:10] INFO ====test_login_001====
+2019-09-11 20:50:35,040 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:50:35,042 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:50:36,258 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:50:36,336 loginView.py[line:24] INFO loging_action
+2019-09-11 20:50:36,336 loginView.py[line:25] INFO username is : DAwang001
+2019-09-11 20:50:37,762 loginView.py[line:28] INFO password is : DAwang001
+2019-09-11 20:50:38,336 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:50:39,147 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:50:45,049 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:50:45,052 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:50:58,937 test_login.py[line:17] INFO ====test_login_002===
+2019-09-11 20:50:58,937 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:50:58,938 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:50:59,419 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:51:00,127 loginView.py[line:24] INFO loging_action
+2019-09-11 20:51:00,128 loginView.py[line:25] INFO username is : DAwang002
+2019-09-11 20:51:01,608 loginView.py[line:28] INFO password is : DAwang123
+2019-09-11 20:51:02,173 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:51:02,885 loginView.py[line:33] INFO login finished!
+2019-09-11 20:51:02,886 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:51:05,807 loginView.py[line:47] INFO login success!
+2019-09-11 20:51:05,807 loginView.py[line:53] INFO logout_action
+2019-09-11 20:51:07,758 myunit.py[line:12] INFO ======tearDown=====
+2019-09-11 20:51:13,685 myunit.py[line:8] INFO ====setUp()====
+2019-09-11 20:51:13,688 desired_caps.py[line:30] INFO start app...
+2019-09-11 20:51:28,827 test_login.py[line:24] INFO ====test_login_error====
+2019-09-11 20:51:28,830 common_fun.py[line:63] INFO ========get_scv_data=======
+2019-09-11 20:51:28,833 common_fun.py[line:15] INFO =======check_cancelBtn=====
+2019-09-11 20:51:29,337 common_fun.py[line:25] INFO ========check_skipBtn========
+2019-09-11 20:51:30,066 loginView.py[line:24] INFO loging_action
+2019-09-11 20:51:30,067 loginView.py[line:25] INFO username is : 6666
+2019-09-11 20:51:31,534 loginView.py[line:28] INFO password is : 2222
+2019-09-11 20:51:32,085 loginView.py[line:31] INFO click loginBtn
+2019-09-11 20:51:32,617 loginView.py[line:33] INFO login finished!
+2019-09-11 20:51:32,618 loginView.py[line:37] INFO check_loginStatus
+2019-09-11 20:51:37,999 loginView.py[line:43] ERROR login fail
+2019-09-11 20:51:37,999 common_fun.py[line:58] INFO get LoginFail screenshot
+2019-09-11 20:51:38,249 myunit.py[line:12] INFO ======tearDown=====

@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Python27-09-unittest/Test_Project" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python29-09-数据驱动/excel-data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python24-09/you_jian_fa_song" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python42,43,44-09-appium/元素定位" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

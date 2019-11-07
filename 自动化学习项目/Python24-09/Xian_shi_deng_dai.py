@@ -23,6 +23,8 @@ def xian_shi_deng_dai():
     a.send_keys("显示等待")
     # 超时时间为10秒，每0.2秒检查一次，直到 id = passwordA 的元素出现
     b = WebDriverWait(driver, 10, 0.2).until(EC.presence_of_element_located((By.ID, 'passwordA')))
+    # 使用lambda 函数来判断 显示等待
+    # WebDriverWait(driver, 6).until(lambda x: x.find_element_by_id("passwordA"))
     b.send_keys("11111")
     sleep(3)
     driver.quit()

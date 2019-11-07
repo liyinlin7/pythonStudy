@@ -3,22 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="appium元素定位">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/001-录制实现登录.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/001-录制实现登录.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/001-ID定位.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/001-ID定位.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/002-if判断.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/002-if判断.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/003-try异常捕捉.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/003-try异常捕捉.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/004-自动登录.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/004-自动登录.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/005-name定位.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/005-name定位.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/006-classname定位.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/006-classname定位.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/007-相对定位.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/007-相对定位.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/008-List定位.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/008-List定位.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/009-使用LIST实现注册.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/009-使用LIST实现注册.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/010-滑动.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/010-滑动.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/011-xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/011-xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/012-uiautomator定位.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/012-uiautomator定位.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/013-手势.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/013-手势.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python42,43-09-appium/元素定位/capability.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/capability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/自动化学习项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/自动化学习项目.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/013-手势.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/013-手势.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,65 +31,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/002-if判断.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/004-自动登录.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/capability.py">
+        <entry file="file://$PROJECT_DIR$/Python45-09/test_run/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state>
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/011-xpath.py">
+        <entry file="file://$PROJECT_DIR$/Python45-09/common/common_fun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state>
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/005-name定位.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/001-ID定位.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/008-List定位.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/006-classname定位.py">
+        <entry file="file://$PROJECT_DIR$/Python45-09/common/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/013-手势.py">
+        <entry file="file://$PROJECT_DIR$/Python45-09/common/desired_caps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="130">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -111,12 +76,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/012-uiautomator定位.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Python45-09/test_run/HTMLTestRunnerCN.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -164,14 +125,17 @@
         <option value="$PROJECT_DIR$/Python42,43-09-appium/元素定位/011-xpath.py" />
         <option value="$PROJECT_DIR$/Python42,43-09-appium/元素定位/012-uiautomator定位.py" />
         <option value="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/013-手势.py" />
+        <option value="$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py" />
+        <option value="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/012-uiautomator定位.py" />
+        <option value="$PROJECT_DIR$/Python45-09/common/desired_caps.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -179,17 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="自动化学习项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -200,115 +153,35 @@
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python22-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python22-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python22-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="html" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python24-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python24-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="you_jian_fa_song" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="Python25-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python25-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="iframe定位" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Python45-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python25-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Selenium操作JS控件" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Python45-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="common" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python25-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="截屏" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Python45-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test_run" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python25-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="断言" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python26-09-unittest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python28-09-logging" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python29-09-数据驱动" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python29-09-数据驱动" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="csv-data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python29-09-数据驱动" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="excel-data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python31-09-键盘鼠标操作" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python31-09-键盘鼠标操作" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="鼠标左键" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python31-09-键盘鼠标操作" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="鼠标悬停" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python42,43,44-09-appium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python42,43,44-09-appium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="元素定位" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="自动化学习项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,15 +194,17 @@
     <property name="last_opened_file_path" value="D:/学智云项目组/新学智云--师训端" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python项目\自动化学习项目\Python42,43-09-appium\元素定位" />
-      <recent name="D:\Python项目\自动化学习项目\Python42-09-appium\元素定位" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Python项目\自动化学习项目" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python项目\自动化学习项目\Python45-09\test_run" />
+      <recent name="D:\Python项目\自动化学习项目\Python45-09" />
+      <recent name="D:\Python项目\自动化学习项目\Python42,43-09-appium\元素定位" />
+      <recent name="D:\Python项目\自动化学习项目\Python42-09-appium\元素定位" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -501,12 +376,18 @@
       <workItem from="1570583704730" duration="1862000" />
       <workItem from="1571015592795" duration="2953000" />
       <workItem from="1571101821426" duration="2481000" />
-      <workItem from="1571189558524" duration="7566000" />
+      <workItem from="1571189558524" duration="8866000" />
+      <workItem from="1571378500070" duration="600000" />
+      <workItem from="1571448287238" duration="2014000" />
+      <workItem from="1571621329818" duration="1117000" />
+      <workItem from="1571879836126" duration="1374000" />
+      <workItem from="1572658877612" duration="3714000" />
+      <workItem from="1573088911332" duration="2945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109408000" />
+    <option name="totallyTimeSpent" value="122472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,7 +402,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32908848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -535,7 +416,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -572,39 +453,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/test_Assert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/test_Math.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/test_skip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/csv-data/csvData1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/csv-data/csvData2.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/csv-data/DataCsv.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -732,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python25-09/Selenium操作JS控件/001-alert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -763,16 +623,6 @@
         <state>
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python24-09/Yin_shi_deng_dai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -865,36 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/009-使用LIST实现注册.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/010-滑动.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/003-try异常捕捉.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/007-相对定位.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/006-classname定位.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -902,11 +722,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/008-List定位.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Python24-09/Yin_shi_deng_dai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/005-name定位.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/001-ID定位.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -914,37 +748,122 @@
     <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/002-if判断.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/004-自动登录.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/capability.py">
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/003-try异常捕捉.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state>
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/011-xpath.py">
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/013-手势.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="512">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/004-自动登录.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/005-name定位.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/007-相对定位.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/008-List定位.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/009-使用LIST实现注册.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/012-uiautomator定位.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/013-手势.py">
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/011-xpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="147">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/010-滑动.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/capability.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/weather_api_unittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/common/common_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/common/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/test_run/HTMLTestRunnerCN.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/test_run/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/common/desired_caps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
