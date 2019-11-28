@@ -63,7 +63,7 @@ class Common(BaseView):
         logging.info('========get_scv_data=======')
         with open(csv_file,'r',encoding='utf-8-sig') as file:
             reader=csv.reader(file)
-            for index,row in enumerate(reader,1):
+            for index,row in enumerate(reader,1):  # enumerate(a,start) a是可迭代对象，start是计数起始数字
                 if index==line:
                     return row
 

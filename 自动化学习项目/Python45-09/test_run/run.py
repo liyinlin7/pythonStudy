@@ -18,3 +18,4 @@ with open(report_name,'wb') as f:
     runner=HTMLTestRunner(stream=f,title='<考研帮>测试报告',description='针对考研帮3.1.0 Android app 测试报告')
     logging.info('start run test case...')
     runner.run(discover)
+    f.close()

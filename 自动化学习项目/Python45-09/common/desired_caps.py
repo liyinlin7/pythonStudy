@@ -18,10 +18,10 @@ def appium_desired():
     desired_cape['platformName'] = data['platformName']
     desired_cape['deviceName'] = data['deviceName']
     desired_cape['platformVersion'] = data['platformVersion']
-
-    base_dir=os.path.dirname(os.path.dirname(__file__))
-    app_path=os.path.join(base_dir,'app',data['appname'])
-    desired_cape['app'] =app_path
+    #     找到括号内的上一级路径（找到当前文件的绝对路径）  __file__ 魔法方法，指的的是当前文件
+    base_dir = os.path.dirname(os.path.dirname(__file__))  # 当前文件路径的上一级路径
+    app_path = os.path.join(base_dir, 'app', data['appname'])  # 拼接路径
+    desired_cape['app'] = app_path
 
     desired_cape['appPackage'] = data['appPackage']
     desired_cape['appActivity'] = data['appActivity']
