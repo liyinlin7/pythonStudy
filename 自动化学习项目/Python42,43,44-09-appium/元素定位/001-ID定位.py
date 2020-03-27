@@ -18,4 +18,6 @@ driver.find_element_by_id('android:id/button2').click()
 # 定位“跳过”按钮
 driver.find_element_by_id('com.tal.kaoyan:id/tv_skip').click()
 
+
+
 driver.quit()
