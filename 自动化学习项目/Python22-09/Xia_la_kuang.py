@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from time import sleep
+from selenium.webdriver.chrome.options import Options
 
 
 def xia_la_kuang():
@@ -9,8 +10,17 @@ def xia_la_kuang():
     下拉框选择
     :return:
     """
-    driver = webdriver.Chrome()
-    url = r"D:\Python项目\自动化学习项目\Python22-09\static\html\注册A.html"
+
+    # ----不打开浏览器的前提下运行selenium--------
+    chrome_options = Options()
+    # chrome_options.add_argument("--headless")   # 不打开浏览器的前提下运行selenium
+    # chrome_options.add_argument('--disable-gpu')   # 作用是针对现有bug的work around
+    # chrome_options.add_argument('--remote-debugging-port=9222')  # 作用则是允许我们可以在另外一个浏览器中debug
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+    # ----不打开浏览器的前提下运行selenium--------
+
+    # driver = webdriver.Chrome()
+    url = r"E:\python项目\pythonStudy\自动化学习项目\Python22-09\static\html\注册A.html"
     driver.get(url)
     driver.maximize_window()  # 浏览器最大化
     # driver.set_window_size(2000, 1000)  # 设置浏览器大小，2000px宽，1000px高
