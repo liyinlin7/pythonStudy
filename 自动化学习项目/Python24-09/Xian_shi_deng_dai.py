@@ -10,7 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 class test():
 
-    password_Type_Value = "userA"
+    password_Type_Value = "AAA1111111111"
     password_Type = (By.ID, password_Type_Value)
 
 
@@ -33,7 +33,7 @@ class test():
         try:
             # WebDriverWait(driver, 10, 0.2).until(EC.presence_of_element_located((self.password_Type)))
             WebDriverWait(driver, 5).until(lambda x: x.find_element(*self.password_Type))
-        except BaseException:
+        except Exception:
             print("显示等待没有找到")
         else:
             b = WebDriverWait(driver, 10, 0.2).until(EC.presence_of_element_located((By.ID, 'userA')))

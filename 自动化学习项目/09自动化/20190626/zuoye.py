@@ -54,3 +54,11 @@
 # a = [1, 2, 4, 3, 2, 2, 4]
 # set_a = set(a)
 # print(list(set_a))
+
+import datetime
+
+today = datetime.date.today()
+oneday = datetime.timedelta(days=5)
+tomorrow = (today + oneday).strftime("%d")
+today = today.strftime("%d")
+print(today, tomorrow)
