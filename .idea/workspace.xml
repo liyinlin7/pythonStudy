@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2474fdee-908d-4f27-a380-9d0a7f7fc038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2474fdee-908d-4f27-a380-9d0a7f7fc038" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,19 +9,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pythonStudy$zuoye.coverage" NAME="zuoye Coverage Results" MODIFIED="1592903730888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/09自动化/20190623" />
-    <SUITE FILE_PATH="coverage/pythonStudy$003_prompt.coverage" NAME="003-prompt Coverage Results" MODIFIED="1592965546590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
     <SUITE FILE_PATH="coverage/pythonStudy$001_alert.coverage" NAME="001-alert Coverage Results" MODIFIED="1592965459281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
-    <SUITE FILE_PATH="coverage/pythonStudy$Unittests_in_DATAddt_py.coverage" NAME="Unittests in DATAddt.py Coverage Results" MODIFIED="1592903652273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动" />
     <SUITE FILE_PATH="coverage/pythonStudy$002_confirm.coverage" NAME="002-confirm Coverage Results" MODIFIED="1592965799264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
+    <SUITE FILE_PATH="coverage/pythonStudy$Unittests_in_DATAddt_py.coverage" NAME="Unittests in DATAddt.py Coverage Results" MODIFIED="1592903652273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动" />
+    <SUITE FILE_PATH="coverage/pythonStudy$003_prompt.coverage" NAME="003-prompt Coverage Results" MODIFIED="1592965546590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
+    <SUITE FILE_PATH="coverage/pythonStudy$zuoye.coverage" NAME="zuoye Coverage Results" MODIFIED="1592903730888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/09自动化/20190623" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件/002-confirm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="704">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -48,6 +45,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -59,74 +67,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python25-09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python25-09" type="462c0819:PsiDirectoryNode" />
-              <item name="Selenium操作JS控件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python25-09" type="462c0819:PsiDirectoryNode" />
-              <item name="截屏" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python25-09" type="462c0819:PsiDirectoryNode" />
-              <item name="断言" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LHB/接口测试" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -269,6 +214,7 @@
       <workItem from="1592903605842" duration="1978000" />
       <workItem from="1592911869504" duration="619000" />
       <workItem from="1592961381252" duration="1475000" />
+      <workItem from="1626232551542" duration="26000" />
     </task>
     <servers />
   </component>
@@ -281,13 +227,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4154000" />
+    <option name="totallyTimeSpent" value="4180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,15 +276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/testtools/python/Lib/site-packages/selenium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#788#847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/testtools/python/Lib/site-packages/selenium/webdriver/__init__.py" />
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件/003-prompt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -379,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件/002-confirm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="704">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
