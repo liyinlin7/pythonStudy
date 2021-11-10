@@ -22,7 +22,7 @@ class Test1(unittest.TestCase):
 
 
 # 跳过
-@unittest.skip("skip Test_2")
+# @unittest.skip("skip Test_2")
 class Test2(unittest.TestCase):
     def setUp(self):
         print("test2 start")
@@ -30,6 +30,7 @@ class Test2(unittest.TestCase):
     def test_d(self):
         print("test_d")
 
+    @unittest.skip("skip Test_2")
     def test_a(self):
         print("test_a")
 
