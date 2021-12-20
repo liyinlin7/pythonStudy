@@ -1,9 +1,7 @@
-from tasks.sendalarm import SendAlarm
 from common.deal_with_data import count_time
-from tasks.HTMLTestRunnerCN import HTMLTestRunner
+from testrunner.HTMLTestRunnerCN import HTMLTestRunner
 import unittest
 import time,logging
-import sys
 
 status_1 = 15657880727
 status_2 = 18978840274

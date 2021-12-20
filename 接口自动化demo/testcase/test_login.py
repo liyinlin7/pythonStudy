@@ -1,4 +1,4 @@
-from common.myunit import StartEnd
+from testcase.myunit import StartEnd
 import unittest
 import logging
 
