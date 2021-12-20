@@ -7,6 +7,9 @@ pro_path = os.path.split(os.path.split(os.path.realpath(__file__))[0])[0]
 # 配置文件路径
 conf_path = os.path.join(pro_path, 'conf', 'pro.conf')
 
+# etcd配置文件路径
+etcd_conf_path = os.path.join(pro_path, 'conf', 'pro.conf')
+
 # 测试数据路径
 test_data_path = os.path.join(pro_path, 'test_data', 'test_case.xlsx')
 
