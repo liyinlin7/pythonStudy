@@ -9,9 +9,9 @@ class SendAlarm:
     # def send_dingtalk_alarm(self, msg):
     #     """向钉钉发送警报"""
     #     url = ReadConfig().read_config(read_path.conf_path, 'BASE', 'dingtalk_alarm_url')
-    #     data = '{"msgtype": "text","text": {"content": "测试结果：' + msg + '"}}'
+    #     test_data = '{"msgtype": "text","text": {"content": "测试结果：' + msg + '"}}'
     #     header = {'Content-Type': 'application/json'}
-    #     requests.post(url, json=eval(data), headers=header)
+    #     requests.post(url, json=eval(test_data), headers=header)
 
     def send_sport_test(self, env_flag, title, people, msg):
         """向钉钉发送警报--其他球类预警群SQL"""
@@ -100,7 +100,7 @@ class SendAlarm:
             }
         }
         header = {'Content-Type': 'application/json'}
-        # print(data)
+        # print(test_data)
         requests.post(url=url, json=data, headers=header)
 
 # if __name__ == '__main__':

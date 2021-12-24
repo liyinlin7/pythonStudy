@@ -44,14 +44,14 @@ class WriteConf:
 
     # 读取mongo的配置
     def read_mysql(self):
-        mysql_basic = self.etcd.get("/develop/config/mysql/data-basic")[0].decode()
-        # mysql_basic = self.etcd.get("/develop/config/mysql/data-basic")[0].decode()
-        mysql_centon = self.etcd.get("/develop/config/mysql/data-center")[0].decode()
-        # mysql_centon = self.etcd.get("/develop/config/mysql/data-center")[0].decode()
+        mysql_basic = self.etcd.get("/develop/config/mysql/test_data-basic")[0].decode()
+        # mysql_basic = self.etcd.get("/develop/config/mysql/test_data-basic")[0].decode()
+        mysql_centon = self.etcd.get("/develop/config/mysql/test_data-center")[0].decode()
+        # mysql_centon = self.etcd.get("/develop/config/mysql/test_data-center")[0].decode()
         mysql_conf_centon = json.loads(mysql_centon)
         mysql_conf_basic = json.loads(mysql_basic)
-        print("data-center:", mysql_conf_centon)
-        print("data-basic:", mysql_conf_basic)
+        print("test_data-center:", mysql_conf_centon)
+        print("test_data-basic:", mysql_conf_basic)
         mysql_host_centon = mysql_conf_centon.get("host")
         mysql_host_basic = mysql_conf_basic.get("host")
         mysql_port = mysql_conf_centon.get("port")
@@ -60,8 +60,8 @@ class WriteConf:
         return mysql_host_centon, mysql_host_basic, mysql_port, mysql_pwd, mysql_user
 
     def read_mongo(self):
-        # mongo = self.etcd.get("/develop/config/mongo/python/data-result")[0].decode()
-        mongo = self.etcd.get("/develop/config/mongo/python/data-result")[0].decode()
+        # mongo = self.etcd.get("/develop/config/mongo/python/test_data-result")[0].decode()
+        mongo = self.etcd.get("/develop/config/mongo/python/test_data-result")[0].decode()
         mongo_conf = json.loads(mongo)
         print("mongoDB:", mongo_conf)
         mongo_host = mongo_conf.get("host")

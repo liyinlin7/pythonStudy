@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../接口自动化demo/testrunner/caserun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/tasks/HTMLTestRunnerCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testrunner/HTMLTestRunnerCN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/tasks/runtasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testrunner/runtasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../接口自动化demo/test_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../接口自动化demo/test_data/city_code.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/common_fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/common_fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/etcd_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/etcd_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/read_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/read_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../接口自动化demo/tasks/sendalarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/tasks/sendalarm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../接口自动化demo/testrunner/HTMLTestRunnerCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testrunner/HTMLTestRunnerCN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +35,7 @@
     <SUITE FILE_PATH="coverage/$Unittests_in_weather_api_unittest_py.coverage" NAME="Unittests in weather_api_unittest.py Coverage Results" MODIFIED="1639976965456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case" />
     <SUITE FILE_PATH="coverage/$Python21.coverage" NAME="Python21 Coverage Results" MODIFIED="1558429586239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Text01.coverage" NAME="Text01 Coverage Results" MODIFIED="1558162021349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_001_unittest_py.coverage" NAME="Unittests in 001-unittest框架.py Coverage Results" MODIFIED="1640150366811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python26-09-unittest" />
     <SUITE FILE_PATH="coverage/$Python09.coverage" NAME="Python09 Coverage Results" MODIFIED="1557815319543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Text02.coverage" NAME="Text02 Coverage Results" MODIFIED="1558162247628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Python03.coverage" NAME="Python03 Coverage Results" MODIFIED="1557716650143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -42,22 +46,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python45-09/common/myunit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python45-09/test_case/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="308">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -66,75 +58,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-text/Python01.py">
+        <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/010-滑动.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python45-09/businessView/loginView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python27-09-unittest/test_addSub.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/z-text/Python03.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/weather_api_unittest.py">
+        <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="176">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/weather_api_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Python28-09-logging/日志/002-修改日志级别.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/run.py">
+        <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="10" selection-start-line="5" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="-634">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python27-09-unittest/Test_Project/test_add.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python27-09-unittest/Test_Project/test_sub.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python27-09-unittest/Test_Project/runtest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -202,14 +195,16 @@
         <option value="$PROJECT_DIR$/Python45-09/common/common_fun.py" />
         <option value="$PROJECT_DIR$/z-text/li.py" />
         <option value="$PROJECT_DIR$/z-text/1111.py" />
+        <option value="$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py" />
+        <option value="$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,26 +233,35 @@
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python35-09-接口自动化测试实战" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Python29-09-数据驱动" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python35-09-接口自动化测试实战" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="request_Project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Python29-09-数据驱动" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="csv-data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python35-09-接口自动化测试实战" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="request_Project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="reports" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Python29-09-数据驱动" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="excel-data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python35-09-接口自动化测试实战" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="request_Project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Python45-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Python45-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Python45-09" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test_case" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -268,7 +272,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../接口自动化demo" />
+    <property name="last_opened_file_path" value="E:/破晓/test_python/data-monitor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -296,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.weather_api_test">
+  <component name="RunManager" selected="Python tests.Unittests in 001-unittest框架.py">
     <configuration name="1111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="自动化学习项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -363,26 +367,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zuoye" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in 001-unittest框架.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="自动化学习项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09自动化/20190626" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python26-09-unittest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09自动化/20190626/zuoye.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in weather_api_unittest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -402,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in 001-unittest框架.py" />
         <item itemvalue="Python.weather_api_test" />
         <item itemvalue="Python tests.Unittests in weather_api_unittest.py" />
         <item itemvalue="Python.1111" />
         <item itemvalue="Python.li" />
-        <item itemvalue="Python.zuoye" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +479,7 @@
       <workItem from="1595573216704" duration="8448000" />
       <workItem from="1597130147235" duration="13000" />
       <workItem from="1636532783759" duration="1236000" />
-      <workItem from="1639975520686" duration="3755000" />
+      <workItem from="1639975520686" duration="10432000" />
     </task>
     <task id="LOCAL-00001" summary="appium元素定位">
       <created>1595329933667</created>
@@ -495,9 +492,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_002-获取当前页面URL_py - 2020.06.24 at 10h 31m 34s.xml">
-      <configuration name="Unittests in 002-获取当前页面URL.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_002-获取当前页面URL_py - 2020.06.24 at 10h 33m 37s.xml">
       <configuration name="Unittests in 002-获取当前页面URL.py" configurationId="tests" />
     </history-entry>
@@ -519,9 +513,18 @@
     <history-entry file="Unittests_in_weather_api_unittest_py - 2021.12.20 at 13h 09m 29s.xml">
       <configuration name="Unittests in weather_api_unittest.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_001-unittest框架_py - 2021.12.22 at 13h 15m 35s.xml">
+      <configuration name="Unittests in 001-unittest框架.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_001-unittest框架_py - 2021.12.22 at 13h 19m 01s.xml">
+      <configuration name="Unittests in 001-unittest框架.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_001-unittest框架_py - 2021.12.22 at 13h 19m 26s.xml">
+      <configuration name="Unittests in 001-unittest框架.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211121000" />
+    <option name="totallyTimeSpent" value="217798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,7 +544,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26487252" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36260623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,55 +610,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="appium元素定位" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/008-List定位.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/001-ID定位.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/config/log.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/logs/runlog.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/calculator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09自动化/20190623/zuoye.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask01/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python26-09-unittest/002-获取当前页面URL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python45-09/config/kyb_caps.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -802,32 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/data/account.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python45-09/test_run/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -837,19 +765,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/businessView/loginView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/z-text/TextIframe.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -898,16 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/test_case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/z-text/Python01.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -932,15 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="582" column="6" selection-start-line="582" selection-start-column="6" selection-end-line="582" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/Test_Project/test_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,6 +873,116 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/Test_Project/test_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/data/account.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python34-09-json,requests/003-传递body参数.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python34-09-json,requests/10-SSL证书验证.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/001-录制实现登录.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/010-滑动.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python28-09-logging/日志/002-修改日志级别.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/testTools/python3.7.2/anzhuang/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="671" column="8" selection-start-line="671" selection-start-column="8" selection-end-line="671" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/businessView/loginView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/test_addSub.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>

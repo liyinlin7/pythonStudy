@@ -11,7 +11,7 @@ conf_path = os.path.join(pro_path, 'conf', 'pro.conf')
 etcd_conf_path = os.path.join(pro_path, 'conf', 'pro.conf')
 
 # 测试数据路径
-test_data_path = os.path.join(pro_path, 'test_data', 'test_case.xlsx')
+test_data_path = os.path.join(pro_path, 'test_data', 'city_code.xlsx')
 
 # 测试报告路径
 test_report_path = os.path.join(pro_path, 'test_result', 'test_report', 'test_report.html')
