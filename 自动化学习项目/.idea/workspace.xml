@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../接口自动化demo/test_data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../接口自动化demo/test_data/city_code.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/common_fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/common_fun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/etcd_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/etcd_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/read_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/read_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/tasks/sendalarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/tasks/sendalarm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../测开学习/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../测开学习/htmltest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../测开学习/htmltest/test1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testcase/test_login_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/testrunner/HTMLTestRunnerCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/testrunner/HTMLTestRunnerCN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -272,7 +267,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/破晓/test_python/data-monitor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python测开班" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -479,7 +474,7 @@
       <workItem from="1595573216704" duration="8448000" />
       <workItem from="1597130147235" duration="13000" />
       <workItem from="1636532783759" duration="1236000" />
-      <workItem from="1639975520686" duration="10432000" />
+      <workItem from="1639975520686" duration="12531000" />
     </task>
     <task id="LOCAL-00001" summary="appium元素定位">
       <created>1595329933667</created>
@@ -524,7 +519,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217798000" />
+    <option name="totallyTimeSpent" value="219897000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,15 +531,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36260623" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36260623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

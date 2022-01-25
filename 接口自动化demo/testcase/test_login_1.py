@@ -40,7 +40,6 @@ class WeatherTest(unittest.TestCase):
     #     result = r.json()
     #     print(result)
 
-
     def tearDown(self):
         print("test end!")
 
