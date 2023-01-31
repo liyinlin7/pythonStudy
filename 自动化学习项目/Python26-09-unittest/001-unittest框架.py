@@ -18,6 +18,7 @@ class myclass(object):
 class mytest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        cls.url = 'http'
         print("------setUpClass------")
 
     @classmethod
@@ -26,6 +27,7 @@ class mytest(unittest.TestCase):
 
     # 初始化工作
     def setUp(self):
+        print (mytest.url)
         self.a=3
         self.b=1
         print("-----setUp-------")

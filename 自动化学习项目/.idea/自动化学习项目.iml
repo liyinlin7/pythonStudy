@@ -16,7 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Python22-09/static" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python22-09/static/html" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (自动化学习项目)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
