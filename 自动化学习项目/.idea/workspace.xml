@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../text/text_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python22-09/static/html/text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/Python项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python项目.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text/text_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../text/text_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../学习项目/text1/第01课-基础.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../学习项目/text1/第01课-基础.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/do_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/do_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/自动化学习项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/自动化学习项目.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python22-09/static/html/注册A.html" beforeDir="false" afterPath="$PROJECT_DIR$/Python22-09/static/html/注册A.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="741">
-              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -77,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/weather_api_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -85,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -103,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="665">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -282,14 +276,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Python项目\自动化学习项目" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\pythonStudy\自动化学习项目\Python35-09-接口自动化测试实战" />
       <recent name="D:\Python项目\自动化学习项目\Python45-09\test_run" />
       <recent name="D:\Python项目\自动化学习项目\Python45-09" />
       <recent name="D:\Python项目\自动化学习项目\Python42,43-09-appium\元素定位" />
       <recent name="D:\Python项目\自动化学习项目\Python42-09-appium\元素定位" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Python项目\自动化学习项目" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -488,7 +483,7 @@
       <workItem from="1646790647933" duration="1674000" />
       <workItem from="1670313767131" duration="4098000" />
       <workItem from="1671081829521" duration="3094000" />
-      <workItem from="1674975143217" duration="9740000" />
+      <workItem from="1674975143217" duration="25949000" />
     </task>
     <task id="LOCAL-00001" summary="appium元素定位">
       <created>1595329933667</created>
@@ -533,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241123000" />
+    <option name="totallyTimeSpent" value="257332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,7 +557,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -619,20 +614,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="appium元素定位" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/reports/2019-08-19 21_25_26_test_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/test_run/HTMLTestRunnerCN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="582" column="6" selection-start-line="582" selection-start-column="6" selection-end-line="582" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python27-09-unittest/Test_Project/test_sub.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -901,7 +882,7 @@
     <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -918,7 +899,7 @@
     <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -938,14 +919,26 @@
     <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/weather_api_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/testtools/python3.8/Lib/site-packages/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/my_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

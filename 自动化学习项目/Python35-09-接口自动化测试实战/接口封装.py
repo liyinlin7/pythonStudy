@@ -1,9 +1,6 @@
 import json
 import requests
-from utils.logger import getLog
-
-log = getLog()
-
+import logging
 
 class HandleRequests(object):
     '''
@@ -26,12 +23,12 @@ class HandleRequests(object):
                 data = json.loads(data)
             except json.JSONDecodeError as error:
                 data = eval(data)
-                log.error("{}数据中包含了python对象,如:None\False\True,不能再转成dict对象:{}".format(data, error))
+                logging.error("{}数据中包含了python对象,如:None\False\True,不能再转成dict对象:{}".format(data, error))
         if self.method == "POST":
             res = self.http.request(self.method, url, json=data, verify=True, **kwargs)
         elif self.method == "GET":
             res = self.http.request(self.method, url, params=data, verify=True, **kwargs)
         else:
-            log.info("请求方法{},暂不支持!!!".format(self.method))
+            logging.info("请求方法{},暂不支持!!!".format(self.method))
 
         return res
