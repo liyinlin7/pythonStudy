@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="appium元素定位">
-      <change afterPath="$PROJECT_DIR$/Python22-09/Driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/z-text/222.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自己的测试脚本/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/Python项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python项目.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../text/text_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../text/text_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../学习项目/text1/第01课-基础.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../学习项目/text1/第01课-基础.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/do_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/do_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py" beforeDir="false" afterPath="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+            <state relative-caret-position="171">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -497,7 +493,7 @@
       <workItem from="1674975143217" duration="51816000" />
       <workItem from="1675671413841" duration="27000" />
       <workItem from="1675671501941" duration="4852000" />
-      <workItem from="1677030239148" duration="318000" />
+      <workItem from="1677030239148" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="appium元素定位">
       <created>1595329933667</created>
@@ -542,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288396000" />
+    <option name="totallyTimeSpent" value="288456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,7 +553,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -571,7 +567,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18418202" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18329719" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -948,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

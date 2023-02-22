@@ -7,6 +7,7 @@ import time
 import sys
 from time import sleep, ctime
 
+# 参考地址 # https://blog.csdn.net/weixin_50271247/article/details/109242117
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
