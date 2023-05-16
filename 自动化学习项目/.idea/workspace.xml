@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="appium元素定位">
-      <change afterPath="$PROJECT_DIR$/Python31-09-selenium项目/driver/chromDriver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/locust_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Python项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Python项目.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../text/text_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../text/text_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../学习项目/text1/第01课-基础.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../学习项目/text1/第01课-基础.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../接口自动化demo/common/do_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../接口自动化demo/common/do_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python29-09-数据驱动/csv-data/DataCsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python29-09-数据驱动/csv-data/DataCsv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py" beforeDir="false" afterPath="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="appium元素定位" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +81,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/driver/chromDriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,17 +252,6 @@
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python31-09-selenium项目" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Python31-09-selenium项目" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="driver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +260,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LHB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../接口自动化demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -526,7 +502,7 @@
       <workItem from="1680163434593" duration="10357000" />
       <workItem from="1680501300724" duration="603000" />
       <workItem from="1682494362998" duration="600000" />
-      <workItem from="1684216454363" duration="2697000" />
+      <workItem from="1684216454363" duration="2816000" />
     </task>
     <task id="LOCAL-00001" summary="appium元素定位">
       <created>1595329933667</created>
@@ -571,7 +547,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328748000" />
+    <option name="totallyTimeSpent" value="328867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,7 +560,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1018,8 +993,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/driver/chromDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
