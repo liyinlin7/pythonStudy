@@ -27,6 +27,9 @@ class test():
         # 在设置的时间内找我们要的元素，在这个时间内找到了，就会继续执行代码；如果没有找到会报错，可以写try异常来处理
         # 显示等待_查找方式：程序每隔xx检查一次，如果条件成立了，则执行下一步，否则继续等待，直到超过设置的最长时间
         # 默认检查时间为 0.5 秒一次
+        # element_to_be_clickable - -元素是否可点击
+        # vibility_of_element_located - -元素是否可见
+        # presence_of_element_located - -元素是否存在
         a = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'userA')))
         a.send_keys("显示等待")
         # 超时时间为10秒，每0.2秒检查一次，直到 id = passwordA 的元素出现

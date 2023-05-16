@@ -16,7 +16,7 @@ data2 = []
 with open("csvData1.csv", "r") as csvFile2:
     reader2 = csv.reader(csvFile2)
     for item in reader2:
-        # print(item)
+        print(item)
         data2.append(item)
     print(data2)
 

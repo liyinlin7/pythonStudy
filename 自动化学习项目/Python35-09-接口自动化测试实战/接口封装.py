@@ -17,7 +17,6 @@ class HandleRequests(object):
         """魔术方法调用"""
 
         self.method = method.upper()
-
         if isinstance(data, str):
             try:
                 data = json.loads(data)
@@ -30,5 +29,4 @@ class HandleRequests(object):
             res = self.http.request(self.method, url, params=data, verify=True, **kwargs)
         else:
             logging.info("请求方法{},暂不支持!!!".format(self.method))
-
         return res

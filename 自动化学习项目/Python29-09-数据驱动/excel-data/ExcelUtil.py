@@ -20,16 +20,17 @@ class ParseExcel(object):
             # 3.再将存放一行数据的列表添加到最络数据列表dataList中
             tmpList = []
             tmpList.append(line[1].value)
-            print("line[1].value:", line[1].value)
+            # print("line[1].value:", line[1].value)
             tmpList.append(line[2].value)
-            print("line[2].value:", line[2].value)
+            # print("line[2].value:", line[2].value)
             dataList.append(tmpList)
         print(dataList[1:])
         return dataList[1:]
 
 
 if __name__ == '__main__':
-    excelPath = r'D:\Python项目\自动化学习项目\Python29-09-数据驱动\excel-data\测试数据.xlsx'
+    # excelPath = r'D:\Python项目\自动化学习项目\Python29-09-数据驱动\excel-data\测试数据.xlsx'
+    excelPath = r'D:\python\pythonStudy\自动化学习项目\Python29-09-数据驱动\excel-data\测试数据.xlsx'
     sheetName = "搜索数据表"
     pe = ParseExcel(excelPath, sheetName)
     print(pe.getDatasFromSheet())

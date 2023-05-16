@@ -20,7 +20,8 @@ class runScript():
 
     def API(self, url, params):
         try:
-            r = requests.get(url, params=params, timeout=10)
+            # r = requests.get(url, params=params, timeout=10)
+            r = requests.post(url, json=params, timeout=10)
             #print(r.status_code)
             code = r.status_code
             if code != 200:
@@ -29,7 +30,7 @@ class runScript():
             else:
                 js = json.dumps(r.json())
                 #print(r.json()) #json格式的响应数据
-                # print(r.elapsed.total_seconds())　响应时间
+                # print(r.elapsed.total_seconds()) # 响应时间
                 #print("ooo" + js) #没有解码的响应数据
                 return [r.json(), r.elapsed.total_seconds(), js]
             #r.raise_for_status()  # 如果响应状态码不是 200，就主动抛出异常
@@ -43,10 +44,12 @@ class runScript():
         try:
             obj = self.API(url, params)
             if obj != None:
-                #print(obj)
+                # print(obj)
+                # print(obj[1])
                 reponse_time.append(obj[1])
-                datas = json.loads(obj[2])["Msg"]
-                status = json.loads(obj[2])["Code"]
+                # datas = json.loads(obj[2])["Msg"]
+                datas = json.loads(obj[2])
+                # status = json.loads(obj[2])["Code"]
                 OK.append(datas)
         except Exception as e:
             return
@@ -54,6 +57,7 @@ class runScript():
 def test(url, params):
     Restime = runScript()
     Restime.circulation(url, params)
+
 def main(num, url, params):
     print("↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓")
     start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S %f')
@@ -81,7 +85,8 @@ def main(num, url, params):
     # print('QPS（TPS）= 并发数/平均响应时间:',num  / (sum(reponse_time) / len(reponse_time)))
 
 if __name__ == '__main__':
-    num = input('输入需要开启的线程数量:')
-    url = 'http://192.168.11.35:8598/test.html'  # 地址
-    params = {'UserName': 'admin', 'UserPwd': '123456'}  # 参数
-    main(int(num), url, params)
+    # num = input('输入需要开启的线程数量:')
+    url = 'http://192.168.0.65:7472/patient/create'  # 地址
+    params = {"icCard":"000001","patName":"测试1","birth":"111","sex":1,"phone":"1345141123121"}  # 参数
+    main(5000, url, params)
+    # main(int(num), url, params)
