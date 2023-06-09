@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+<table>
+	<tr style="text-align: lest;">
+	    <th width="130" bgcolor="White" style='font-size:14px'><span style="float:left;">数据类型</span></th>
+	    <th width="110" bgcolor="White" style='font-size:14px'><span style="float:left;">获取方式</span></th>
+	    <th width="200" bgcolor="White" style='font-size:14px'><span style="float:left;">推送频率</span></th>
+        <th bgcolor="White" style='font-size:14px'><span style="float:left;">调用频率</span></th>
+        <th width="130" bgcolor="White" style='font-size:14px'><span style="float:left;">备注</span></th>
+    </tr >
+    <tr>
+	    <td bgcolor="White" style='font-size:14px'>基础数据</td>
+	    <td rowspan="5" bgcolor="White" style='font-size:14px'>推送＋调用</td>
+	    <td rowspan="5" bgcolor="White" style='font-size:14px'>数据变化时即刻推送</td>
+        <td rowspan="1" bgcolor="White" style='font-size:14px'>数据初始化时调用【<a href="../file/4.1game.html">游戏信息</a>】【<a href="../file/4.2team.html">队伍信息</a>】【<a href="../file/4.3player.html">队员信息</a>】【<a href="../file/4.4hero.html">英雄信息</a>】【<a href="../file/4.5spell_game.html">游戏技能信息</a>】【<a href="../file/4.6item.html">装备信息</a>】【<a href="../file/4.7map.html">地图信息</a>】等对应接口
+            <br/>websocket中断重连后调用【<a href="../file/9.push_timeline.html">变化信息</a>】接口</td>
+         <td rowspan="5" bgcolor="White" style='font-size:14px'>每个游戏品类有自己独有的小局数据结构</td>
+    </tr >
+	<tr >
+	    <td bgcolor="White" style='font-size:14px'>联赛数据</td>
+        <td rowspan="4" bgcolor="White" style='font-size:14px'>数据初始化时调用【<a href="../file/5.1league.html">联赛信息</a>】【<a href="../file/5.2series.html">系列赛信息</a>】【<a href="../file/5.3match_lol.html">LOL小局信息</a>】【<a href="../file/5.2match_dota2.html">DOTA2小局信息</a>】【<a href="../file/5.3match_csgo.html">CS:GO小局信息</a>】【<a href="../file/5.4match_kog.html">KOG小局信息</a>】【<a href="../file/6.1live_video.html">视频直播信息</a>】等对应接口
+            <br/>websocket中断重连后调用【<a href="../file/9.push_timeline.html">变化信息</a>】接口</td>
+	</tr>
+    <tr >
+	    <td bgcolor="White" style='font-size:14px'>系列赛数据</td>
+	</tr>
+    <tr >
+	    <td bgcolor="White" style='font-size:14px'>小局数据</td>
+	</tr>
+    <tr >
+	    <td bgcolor="White" style='font-size:14px'>直播数据</td>
+	</tr>
+	<tr>
+	    <td bgcolor="White" style='font-size:14px'>实时统计数据</td>
+	    <td rowspan="4" bgcolor="White" style='font-size:14px'>推送</td>
+	    <td bgcolor="White" style='font-size:14px'>CSGO：固定1次/回合结束</br>LOL：固定1次/min</td>
+        <td rowspan="4" bgcolor="White" style='font-size:14px'>websocket断掉重连后调用【<a href="../file/9.push_timeline.html">变化信息</a>】接口</td>
+        <td rowspan="4" bgcolor="White" style='font-size:14px'>每个游戏品类有自己独有的实时赛事数据、实时统计数据、实时赛事事件、实时特殊事件结构</td>
+	</tr>
+	<tr>
+	    <td bgcolor="White" style='font-size:14px'>实时赛事数据</td>
+	    <td rowspan="3" bgcolor="White" style='font-size:14px'>数据变化时即刻推送</td>
+	</tr>
+	<tr>
+	    <td bgcolor="White" style='font-size:14px'>实时赛事事件</td>
+	</tr>
+	<tr>
+        <td bgcolor="White" style='font-size:14px'>实时特殊事件</td>
+	</tr>
+	<tr>
+	    <td bgcolor="White" style='font-size:14px'>赛果数据</td>
+	    <td rowspan="3" bgcolor="White" style='font-size:14px'>推送＋调用</td>
+	    <td rowspan="3" bgcolor="White" style='font-size:14px'>小局结束时即刻推送</td>
+        <td rowspan="3" bgcolor="White" style='font-size:14px'>数据初始化时调用【<a href="../file/7.1.1result_lol.html">LOL赛果数据</a>】【<a href="../file/7.1.2result_event_lol.html">LOL赛果事件</a>】【<a href="../file/7.1.3result_event_special_lol.html">LOL赛果特殊事件</a>】【<a href="../file/7.2.1result_dota2.html">DOTA2赛果数据</a>】【<a href="../file/7.2.2result_event_dota2.html">DOTA2赛果事件</a>】【<a href="../file/7.2.3result_event_special_dota2.html">DOTA2赛果特殊事件</a>】【<a href="../file/7.3.1result_csgo.html">CS:GO赛果数据</a>】【<a href="../file/7.3.2result_event_csgo.html">CS:GO赛果事件</a>】【<a href="../file/7.3.3result_event_special_csgo.html">CS:GO赛果特殊事件</a>】【<a href="../file/7.4.1result_kog.html">KOG赛果数据</a>】【<a href="../file/7.4.2result_event_kog.html">KOG赛果事件</a>】等对应接口
+            <br/>websocket中断重连后调用【<a href="../file/9.push_timeline.html">变化信息</a>】接口</td>
+         <td rowspan="3" bgcolor="White" style='font-size:14px'>每个游戏品类有自己独有的赛果数据、赛果赛事事件、赛果特殊事件结构</td>
+	</tr>
+	<tr>
+	    <td bgcolor="White" style='font-size:14px'>赛果事件</td>
+	</tr>
+	<tr>
+	    <td bgcolor="White" style='font-size:14px'>赛果特殊事件</td>
+	</tr>
+    <tr>
+      <td bgcolor="White" style='font-size:14px'>指数类型信息</td>
+      <td bgcolor="White" style='font-size:14px'>调用</td>
+      <td bgcolor="White" style='font-size:14px'>推送频率</td>
+      <td rowspan="3" bgcolor="White" style='font-size:14px'>调用频率</td>
+      <td rowspan="4" bgcolor="White" style='font-size:14px'>备注</td>
+    </tr>
+    <tr>
+      <td bgcolor="White" style='font-size:14px'>指数详情数据</td>
+      <td bgcolor="White" style='font-size:14px'>推送＋调用</td>
+      <td bgcolor="White" style='font-size:14px'>推送频率</td>
+    </tr>
+    <tr>
+      <td bgcolor="White" style='font-size:14px'>指数变化历史</td>
+      <td bgcolor="White" style='font-size:14px'>调用</td>
+      <td bgcolor="White" style='font-size:14px'>推送频率</td>
+    </tr>
+    <tr>
+      <td bgcolor="White" style='font-size:14px'>实时指数</td>
+      <td bgcolor="White" style='font-size:14px'>推送</td>
+      <td bgcolor="White" style='font-size:14px'>推送频率</td>
+      <td bgcolor="White" style='font-size:14px'>调用频率</td>
+    </tr>
+	<tr>
+	    <td bgcolor="White" style='font-size:14px'>联赛统计数据</td>
+	    <td rowspan="3" bgcolor="White" style='font-size:14px'>调用</td>
+        <td rowspan="3" bgcolor="White" style='font-size:14px'>N.A</td>
+        <td bgcolor="White" style='font-size:14px'>相关赛事的小局结束时调用【<a href="../file/8.1.1stats_league_lol.html">LOL联赛统计数据</a>】【<a href="../file/8.2.1stats_league_dota2.html">DOTA2联赛统计数据</a>】【<a href="../file/8.3.1stats_league_csgo.html">CS:GO联赛统计数据</a>】【<a href="../file/8.4.1stats_league_kog.html">KOG联赛统计数据</a>】接口</td>
+        <td rowspan="3" bgcolor="White" style='font-size:14px'>每个游戏品类有自己独有的联赛统计数据、交战统计数据、近期统计数据结构</td>
+	</tr>
+	<tr>
+	    <td  bgcolor="White" style='font-size:14px'>交战统计数据</td>
+	    <td rowspan="2" bgcolor="White" style='font-size:14px'>按照商户自身需求调用【<a href="../file/8.1.2stats_battle_lol.html">LOL交战统计数据</a>】【<a href="../file/8.1.3stats_recent_lol.html">LOL近期统计数据</a>】【<a href="../file/8.2.2stats_battle_dota2.html">DOTA2交战统计数据</a>】【<a href="../file/8.2.3stats_recent_dota2.html">DOTA2近期统计数据</a>】【<a href="../file/8.3.2stats_battle_csgo.html">CS:GO交战统计数据</a>】【<a href="../file/8.3.3stats_recent_csgo.html">CS:GO近期统计数据</a>】【<a href="../file/8.4.2stats_battle_kog.html">KOG交战统计数据</a>】【<a href="../file/8.4.3stats_recent_kog.html">KOG近期统计数据</a>】等对应接口</td>
+	</tr>
+	<tr>
+        <td  bgcolor="White" style='font-size:14px'>近期统计数据</td>
+</table>
+</body>
+</html>

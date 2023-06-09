@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="68" it="0" lt="64" ct="38" ts="1596115595002" s="true" lb="mege登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="262" sby="425" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/login</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="16" ct="0" ts="1596115595085" s="true" lb="图标管理" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="2874" sby="290" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/icon/list?order_value=create_time+desc&amp;type=1&amp;data_type=1&amp;game_id=&amp;source=&amp;limit=10&amp;offset=0&amp;audit=&amp;fuzzy=</java.net.URL>
+</httpSample>
+<sample t="85" it="116" lt="80" ct="38" ts="1596115594902" s="true" lb="mega后台登陆(图标管理)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="线程组 1-1" dt="" by="3136" sby="715" ng="1" na="1"/>
+
+<httpSample t="69" it="0" lt="66" ct="33" ts="1596115597795" s="true" lb="mege登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="262" sby="425" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/login</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="18" ct="0" ts="1596115597876" s="true" lb="战队管理" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="2983" sby="296" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/team/list?order_value=audit+asc,create_time+desc&amp;game_id=&amp;source=-1&amp;audit=1&amp;data_type=1&amp;fuzzy=&amp;offset=0&amp;limit=10</java.net.URL>
+</httpSample>
+<sample t="90" it="96" lt="84" ct="33" ts="1596115597712" s="true" lb="mega后台登陆(战队管理)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="线程组 1-1" dt="" by="3245" sby="721" ng="1" na="1"/>
+
+<httpSample t="74" it="0" lt="71" ct="38" ts="1596115600301" s="true" lb="mega登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="262" sby="425" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/login</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="15" ct="0" ts="1596115600389" s="true" lb="数据变更通知" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="2903" sby="251" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/field/notice/list?status=1&amp;type=&amp;game_id=&amp;source=&amp;limit=10&amp;offset=0</java.net.URL>
+</httpSample>
+<sample t="90" it="112" lt="86" ct="38" ts="1596115600204" s="true" lb="mega后台登陆(数据变更通知)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="线程组 1-1" dt="" by="3165" sby="676" ng="1" na="1"/>
+
+<httpSample t="62" it="0" lt="58" ct="33" ts="1596115603610" s="true" lb="mege登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="262" sby="425" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/login</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="24" ct="0" ts="1596115603684" s="true" lb="游戏管理" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="4335" sby="193" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/game/list</java.net.URL>
+</httpSample>
+<sample t="87" it="97" lt="82" ct="33" ts="1596115603526" s="true" lb="mega后台登陆(游戏管理)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="线程组 1-1" dt="" by="4597" sby="618" ng="1" na="1"/>
+
+<httpSample t="76" it="0" lt="72" ct="39" ts="1596115606455" s="true" lb="mega登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="262" sby="425" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/login</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="70" ct="0" ts="1596115606543" s="true" lb="系列赛管理" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="6145" sby="333" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/series/list?order_value=status+asc,start_time+asc&amp;data_type=1&amp;game_id=&amp;source=&amp;limit=10&amp;offset=0&amp;auto_update=&amp;start_time=0&amp;end_time=0&amp;status=0&amp;audit=</java.net.URL>
+</httpSample>
+<sample t="147" it="112" lt="142" ct="39" ts="1596115606356" s="true" lb="mega后台登陆(系列赛管理)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="线程组 1-1" dt="" by="6407" sby="758" ng="1" na="1"/>
+
+<httpSample t="70" it="0" lt="67" ct="40" ts="1596115609424" s="true" lb="mege登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="262" sby="425" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/login</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="45" ct="0" ts="1596115609506" s="true" lb="联赛管理" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="5909" sby="274" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/league/list?game_id=&amp;source=&amp;status=&amp;level=&amp;start_time=&amp;end_time=&amp;fuzzy=&amp;offset=0&amp;limit=10</java.net.URL>
+</httpSample>
+<sample t="116" it="156" lt="112" ct="40" ts="1596115609281" s="true" lb="mega后台登陆(联赛管理)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="线程组 1-1" dt="" by="6171" sby="699" ng="1" na="1"/>
+
+<httpSample t="67" it="0" lt="63" ct="34" ts="1596115612005" s="true" lb="mege登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="262" sby="425" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/login</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="0" ts="1596115612083" s="true" lb="选手管理" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="4022" sby="307" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://47.114.175.98:50051/api/player/list?order_value=audit+asc,create_time+desc&amp;game_id=&amp;source=-1&amp;team_id=&amp;fuzzy=&amp;audit=1&amp;data_type=1&amp;offset=0&amp;limit=10</java.net.URL>
+</httpSample>
+<sample t="96" it="100" lt="92" ct="34" ts="1596115611918" s="true" lb="mega后台登陆(选手管理)" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="线程组 1-1" dt="" by="4284" sby="732" ng="1" na="1"/>
+
+</testResults>

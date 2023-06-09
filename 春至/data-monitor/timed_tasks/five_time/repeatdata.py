@@ -1,0 +1,133 @@
+from common.do_mysql import DoMySql
+from timed_tasks.sendalarm_li import SendAlarm
+
+
+class RepeaData(object):
+    '''
+        重复数据
+    '''
+    def __init__(self, env_flag, cnn_centon, cnn_basic, mysql_cnn):
+        self.env_flag = env_flag
+        self.cnn_centon = cnn_centon
+        self.cnn_basic = cnn_basic
+        self.doMysql = mysql_cnn
+
+    def repeatdata_team_hour(self):
+        '''
+            同游戏下，已入库两条系列赛数据出现队伍一致并且开赛时间相隔在4小时内  5分钟轮询
+        :return:
+        '''
+        sql = '''
+              SELECT s.id,s.game_id,s.start_time,st.team_id FROM `data-center`.series as s left join `data-center`.series_team as st 
+              on s.id=st.series_id where s.deleted=1 and s.status in (1,2) and s.game_id in (1,2,3,4) and st.team_id!=0 
+              order by start_time;
+              '''
+        datas = self.doMysql.select_centon(self.cnn_centon, sql)
+        lists = []
+        series_ids = []
+        # 遍历保存series_id
+        for i in datas:
+            if i['id'] not in series_ids:
+                series_ids.append(i['id'])
+        # 将 原数据格式转换成 map_s = {'series_id': 0, 'team_ids': 1+2 的字符串, "start_time": 0}
+        for id in series_ids:
+            series_id = 0
+            team_ids = []
+            start_time = 0
+            map_ = {}
+            for lis in datas:
+                if id == lis['id']:
+                    series_id = lis['id']
+                    team_ids.append(str(lis['team_id']))
+                    team_ids.sort()
+                    team_ids_ = ''.join(team_ids)
+                    start_time = lis['start_time']
+            map_['series_id'] = series_id
+            map_['team_id'] = team_ids_
+            map_['start_time'] = start_time
+            lists.append(map_)
+        # print(lists)
+        list_copy = lists.copy()
+        bool = False
+        err_map = []
+        # 对比数据，看是否有一支的team
+        for i in lists:
+            del list_copy[0]
+            err_list = []
+            for y in list_copy:
+                if i['team_id'] == y['team_id']:
+                    # print("-------------------------")
+                    # print(i['series_id'])
+                    # print(y['series_id'])
+                    time = int(i['start_time'] - y['start_time'])
+                    if 0 <= time < 3600*4 or 0 >= time > -3600*4:
+                        err_list.append(i['series_id'])
+                        err_list.append(y['series_id'])
+                        bool = True
+                        # print("存在")
+                    else:
+                        pass
+            if len(err_list) != 0:
+                err_map.append(err_list)
+        # print(err_map)
+        if bool:
+            # title = "已入库两条系列赛数据出现队伍一致并且开赛时间相隔在9小时内"
+            # people = '@15657880727'
+            msg = "已入库两条系列赛数据出现队伍一致并且开赛时间相隔在4小时内,存在问题系列赛为:" + str(err_map)
+            # SendAlarm().send_alarm_python(title, people, msg)
+            print(msg)
+            return msg
+        else:
+            return ""
+
+    def repeatdata_series_day(self):
+        '''
+            当天已入库的多场雷竞技匹配到一场内部ID上  一个小时轮询一次
+        :return:
+        '''
+        sql = '''
+            SELECT * FROM `data-center`.ex_series where p_id in (            
+            SELECT p_id FROM `data-center`.ex_series where source =1 and  p_id !=0  and p_id in (
+            SELECT id FROM `data-center`.series where start_time > UNIX_TIMESTAMP(CAST(SYSDATE()AS DATE)) and 
+            start_time <  UNIX_TIMESTAMP(CAST(SYSDATE()AS DATE) + INTERVAL 1 DAY)
+            ) group by p_id having count(p_id) > 1) and source = 1    order by p_id;
+        '''
+        # sql = '''
+        #              SELECT * FROM `data-center`.ex_series where p_id in (
+        #             SELECT p_id FROM `data-center`.ex_series where source =1 and  p_id !=0  and p_id in (
+        #             SELECT id FROM `data-center`.series where start_time > UNIX_TIMESTAMP(CAST(SYSDATE()AS DATE))
+        #             ) group by p_id having count(p_id) > 1) and source = 1    order by p_id;
+        #         '''
+        datas = self.doMysql.select_centon(cnn=self.cnn_centon, sql=sql)
+        lists = []
+        p_id_set = set()
+        for p_id in datas:
+            p_id_set.add(p_id['p_id'])
+        for i in p_id_set:
+            map_ = {}
+            list_ex = []
+            for data in datas:
+                map_ex_ = {}
+                if i == data['p_id']:
+                    map_ex_[data['ex_id']] = data['status']
+                    # map_ex_['create_time'] = data['create_time']
+                    list_ex.append(map_ex_)
+                    map_[i] = list_ex
+            lists.append(map_)
+        if len(lists) != 0:
+            # title = "已入库两条系列赛数据出现队伍一致并且开赛时间相隔在9小时内"
+            # people = '@15657880727'
+            msg = "当天已入库的多场雷竞技匹配到同一场内部ID上:" + str(lists)
+            # SendAlarm().send_alarm_python(title, people, msg)
+            print(msg)
+            return msg
+        else:
+            return ""
+
+
+if __name__ == '__main__':
+    cnn_centon = DoMySql().cnn_centon_def()
+    cnn_basic = DoMySql().cnn_basic_def()
+    r = RepeaData('release', cnn_centon, cnn_basic, DoMySql())
+    r.repeatdata_team_hour()
+    # r.repeatdata_series_day()
