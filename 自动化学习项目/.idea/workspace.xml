@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="6f2ca580-025f-4dd4-8a33-efac0c092655" name="Default Changelist" comment="appium元素定位" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,27 +13,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1595587204619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-text" />
-    <SUITE FILE_PATH="coverage/$Text03.coverage" NAME="Text03 Coverage Results" MODIFIED="1558009056406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Python03.coverage" NAME="Python03 Coverage Results" MODIFIED="1557716650143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$weather_api_test.coverage" NAME="weather_api_test Coverage Results" MODIFIED="1639977237737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python35-09-接口自动化测试实战" />
+    <SUITE FILE_PATH="coverage/$zuoye.coverage" NAME="zuoye Coverage Results" MODIFIED="1595383568782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09自动化/20190626" />
+    <SUITE FILE_PATH="coverage/$Python09.coverage" NAME="Python09 Coverage Results" MODIFIED="1557815319543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_weather_api_unittest_py.coverage" NAME="Unittests in weather_api_unittest.py Coverage Results" MODIFIED="1639976965456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case" />
+    <SUITE FILE_PATH="coverage/$Python12.coverage" NAME="Python12 Coverage Results" MODIFIED="1558428480088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$test_.coverage" NAME="test_ Coverage Results" MODIFIED="1677154950904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自己的测试脚本/压测多线程代码" />
+    <SUITE FILE_PATH="coverage/$Python21.coverage" NAME="Python21 Coverage Results" MODIFIED="1558429586239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Python11.coverage" NAME="Python11 Coverage Results" MODIFIED="1557836201467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Xian_shi_deng_dai.coverage" NAME="Xian_shi_deng_dai Coverage Results" MODIFIED="1595234939120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python24-09" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_001_unittest_py.coverage" NAME="Unittests in 001-unittest框架.py Coverage Results" MODIFIED="1640150366811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python26-09-unittest" />
+    <SUITE FILE_PATH="coverage/$Text03.coverage" NAME="Text03 Coverage Results" MODIFIED="1558009056406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$python04.coverage" NAME="python04 Coverage Results" MODIFIED="1557798108638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_DataDriven_py.coverage" NAME="Unittests in DataDriven.py Coverage Results" MODIFIED="1680225413879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python29-09-数据驱动/excel-data" />
+    <SUITE FILE_PATH="coverage/$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1595587204619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-text" />
+    <SUITE FILE_PATH="coverage/$Python08.coverage" NAME="Python08 Coverage Results" MODIFIED="1557802064199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$Xia_la_kuang.coverage" NAME="Xia_la_kuang Coverage Results" MODIFIED="1595051829003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python22-09" />
     <SUITE FILE_PATH="coverage/$Unittests_in_002_URL_py.coverage" NAME="Unittests in 002-获取当前页面URL.py Coverage Results" MODIFIED="1592966318304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python26-09-unittest" />
+    <SUITE FILE_PATH="coverage/$Text04.coverage" NAME="Text04 Coverage Results" MODIFIED="1559702210066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$001_unittest.coverage" NAME="001-unittest框架 Coverage Results" MODIFIED="1645515812360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python26-09-unittest" />
+    <SUITE FILE_PATH="coverage/$locust_text.coverage" NAME="locust_text Coverage Results" MODIFIED="1678362006215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自己的测试脚本/压测多线程代码" />
+    <SUITE FILE_PATH="coverage/$Chuang_kou_ju_bing.coverage" NAME="Chuang_kou_ju_bing Coverage Results" MODIFIED="1675671536021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python22-09" />
+    <SUITE FILE_PATH="coverage/$Text01.coverage" NAME="Text01 Coverage Results" MODIFIED="1558162021349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$222.coverage" NAME="222 Coverage Results" MODIFIED="1676021373222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-text" />
+    <SUITE FILE_PATH="coverage/$ExcelUtil.coverage" NAME="ExcelUtil Coverage Results" MODIFIED="1680234195063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python29-09-数据驱动/excel-data" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="绿跑后台 Coverage Results" MODIFIED="1678950617481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自己的测试脚本/压测多线程代码" />
     <SUITE FILE_PATH="coverage/$li.coverage" NAME="li Coverage Results" MODIFIED="1595496265579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/z-text" />
     <SUITE FILE_PATH="coverage/$Python01.coverage" NAME="Python01 Coverage Results" MODIFIED="1557477193463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$zuoye.coverage" NAME="zuoye Coverage Results" MODIFIED="1595383568782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09自动化/20190626" />
-    <SUITE FILE_PATH="coverage/$Xia_la_kuang.coverage" NAME="Xia_la_kuang Coverage Results" MODIFIED="1595051829003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python22-09" />
-    <SUITE FILE_PATH="coverage/$weather_api_test.coverage" NAME="weather_api_test Coverage Results" MODIFIED="1639977237737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python35-09-接口自动化测试实战" />
-    <SUITE FILE_PATH="coverage/$Text04.coverage" NAME="Text04 Coverage Results" MODIFIED="1559702210066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$Xian_shi_deng_dai.coverage" NAME="Xian_shi_deng_dai Coverage Results" MODIFIED="1595234939120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python24-09" />
-    <SUITE FILE_PATH="coverage/$Python12.coverage" NAME="Python12 Coverage Results" MODIFIED="1558428480088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$Unittests_in_weather_api_unittest_py.coverage" NAME="Unittests in weather_api_unittest.py Coverage Results" MODIFIED="1639976965456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case" />
-    <SUITE FILE_PATH="coverage/$Python21.coverage" NAME="Python21 Coverage Results" MODIFIED="1558429586239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$Text01.coverage" NAME="Text01 Coverage Results" MODIFIED="1558162021349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$Unittests_in_001_unittest_py.coverage" NAME="Unittests in 001-unittest框架.py Coverage Results" MODIFIED="1640150366811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python26-09-unittest" />
-    <SUITE FILE_PATH="coverage/$Python09.coverage" NAME="Python09 Coverage Results" MODIFIED="1557815319543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Text02.coverage" NAME="Text02 Coverage Results" MODIFIED="1558162247628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$Python03.coverage" NAME="Python03 Coverage Results" MODIFIED="1557716650143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$python04.coverage" NAME="python04 Coverage Results" MODIFIED="1557798108638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Python10.coverage" NAME="Python10 Coverage Results" MODIFIED="1559702554168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/$Python08.coverage" NAME="Python08 Coverage Results" MODIFIED="1557802064199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1683906770921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case" />
   </component>
@@ -40,15 +54,119 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+=======
+    <SUITE FILE_PATH="coverage/$text1.coverage" NAME="text1 Coverage Results" MODIFIED="1680166933053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自己的测试脚本/压测多线程代码" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/csv-data/DataCsv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python31-09-键盘鼠标操作/鼠标悬停/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="32" column="74" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/burnett_top_500.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="9" selection-end-column="9" />
+=======
+        <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/driver/driver.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/driver/chromDriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/自己的测试脚本/压测多线程代码/绿跑后台.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="60" />
+              <folding>
+                <element signature="e#39#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="988">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/weather_api_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -76,10 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python01.py" />
-        <option value="$PROJECT_DIR$/Python3.py" />
-        <option value="$PROJECT_DIR$/Python03.py" />
-        <option value="$PROJECT_DIR$/python04.py" />
         <option value="$PROJECT_DIR$/venv/Python06.py" />
         <option value="$PROJECT_DIR$/Python06.py" />
         <option value="$PROJECT_DIR$/Python08.py" />
@@ -112,24 +226,45 @@
         <option value="$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/001-ID定位.py" />
         <option value="$PROJECT_DIR$/Python26-09-unittest/002-获取当前页面URL.py" />
         <option value="$PROJECT_DIR$/Python45-09/test_run/HTMLTestRunnerCN.py" />
-        <option value="$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py" />
         <option value="$PROJECT_DIR$/09自动化/20190626/zuoye.py" />
         <option value="$PROJECT_DIR$/Python22-09/Xia_la_kuang.py" />
         <option value="$PROJECT_DIR$/Python45-09/common/common_fun.py" />
         <option value="$PROJECT_DIR$/z-text/li.py" />
         <option value="$PROJECT_DIR$/z-text/1111.py" />
-        <option value="$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py" />
         <option value="$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/burnett_top_500.txt" />
         <option value="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/test.py" />
+=======
+        <option value="$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py" />
+        <option value="$PROJECT_DIR$/Python22-09/Chuang_kou_ju_bing.py" />
+        <option value="$PROJECT_DIR$/z-text/222.py" />
+        <option value="$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py" />
+        <option value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py" />
+        <option value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/locust_text.py" />
+        <option value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/绿跑后台.py" />
+        <option value="$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py" />
+        <option value="$PROJECT_DIR$/Python29-09-数据驱动/csv-data/DataCsv.py" />
+        <option value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/text1.py" />
+        <option value="$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py" />
+        <option value="$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py" />
+        <option value="$PROJECT_DIR$/Python31-09-selenium项目/driver/chromDriver.py" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-5" />
     <option name="y" value="-5" />
     <option name="width" value="1242" />
     <option name="height" value="672" />
+=======
+    <option name="x" value="-108" />
+    <option name="y" value="162" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,6 +279,7 @@
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="自动化学习项目" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
@@ -169,6 +305,8 @@
               <item name="request_Project" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test_case" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+=======
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
           </expand>
           <select />
         </subPane>
@@ -188,18 +326,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python测开班" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../接口自动化demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="E:\python项目\学习项目\pythonStudy\自动化学习项目\Python35-09-接口自动化测试实战\request_Project\test_case" />
       <recent name="D:\Python项目\自动化学习项目\Python45-09\test_run" />
       <recent name="D:\Python项目\自动化学习项目\Python45-09" />
       <recent name="D:\Python项目\自动化学习项目\Python42,43-09-appium\元素定位" />
       <recent name="D:\Python项目\自动化学习项目\Python42-09-appium\元素定位" />
+=======
+      <recent name="D:\python\pythonStudy\自动化学习项目\Python31-09-selenium项目\driver" />
+      <recent name="D:\python\pythonStudy\自动化学习项目\自己的测试脚本\压测多线程代码" />
+      <recent name="D:\python\pythonStudy\自动化学习项目\Python22-09" />
+      <recent name="D:\python\pythonStudy\自动化学习项目\Python35-09-接口自动化测试实战" />
+      <recent name="D:\Python项目\自动化学习项目\Python45-09\test_run" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Python项目\自动化学习项目" />
@@ -217,8 +363,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.test">
     <configuration name="1111" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.ExcelUtil">
+    <configuration name="绿跑后台" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       <module name="自动化学习项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,12 +377,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z-text" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z-text/1111.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/绿跑后台.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +391,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="ExcelUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       <module name="自动化学习项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,12 +403,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python29-09-数据驱动/excel-data" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/test.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,7 +425,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weather_api_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="locust_text" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="自动化学习项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,12 +433,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python35-09-接口自动化测试实战" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python35-09-接口自动化测试实战/weather_api_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/locust_text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,43 +447,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in 001-unittest框架.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="text1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="自动化学习项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python26-09-unittest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python26-09-unittest/001-unittest框架.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自己的测试脚本/压测多线程代码/text1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in weather_api_unittest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in DataDriven.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="自动化学习项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python29-09-数据驱动/excel-data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/weather_api_unittest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.test" />
         <item itemvalue="Python tests.Unittests in 001-unittest框架.py" />
         <item itemvalue="Python.weather_api_test" />
         <item itemvalue="Python tests.Unittests in weather_api_unittest.py" />
         <item itemvalue="Python.1111" />
+=======
+        <item itemvalue="Python.ExcelUtil" />
+        <item itemvalue="Python tests.Unittests in DataDriven.py" />
+        <item itemvalue="Python.text1" />
+        <item itemvalue="Python.绿跑后台" />
+        <item itemvalue="Python.locust_text" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +575,37 @@
       <workItem from="1597130147235" duration="13000" />
       <workItem from="1636532783759" duration="1236000" />
       <workItem from="1639975520686" duration="12531000" />
+<<<<<<< HEAD
       <workItem from="1683895494312" duration="10317000" />
+=======
+      <workItem from="1645515606005" duration="2620000" />
+      <workItem from="1646790647933" duration="1674000" />
+      <workItem from="1670313767131" duration="4098000" />
+      <workItem from="1671081829521" duration="3094000" />
+      <workItem from="1674975143217" duration="51816000" />
+      <workItem from="1675671413841" duration="27000" />
+      <workItem from="1675671501941" duration="4852000" />
+      <workItem from="1677030239148" duration="5271000" />
+      <workItem from="1677058452990" duration="1934000" />
+      <workItem from="1677154819404" duration="1673000" />
+      <workItem from="1677637734090" duration="2694000" />
+      <workItem from="1677810369717" duration="3646000" />
+      <workItem from="1678069759007" duration="732000" />
+      <workItem from="1678090555786" duration="1400000" />
+      <workItem from="1678181875427" duration="12000" />
+      <workItem from="1678183604057" duration="5349000" />
+      <workItem from="1678357591482" duration="608000" />
+      <workItem from="1678360264098" duration="1762000" />
+      <workItem from="1678434590725" duration="116000" />
+      <workItem from="1678670295392" duration="24000" />
+      <workItem from="1678936467385" duration="331000" />
+      <workItem from="1678950566230" duration="215000" />
+      <workItem from="1680158838899" duration="646000" />
+      <workItem from="1680163434593" duration="10357000" />
+      <workItem from="1680501300724" duration="603000" />
+      <workItem from="1682494362998" duration="600000" />
+      <workItem from="1684216454363" duration="2816000" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
     </task>
     <task id="LOCAL-00001" summary="appium元素定位">
       <created>1595329933667</created>
@@ -410,9 +618,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_002-获取当前页面URL_py - 2020.06.24 at 10h 33m 37s.xml">
-      <configuration name="Unittests in 002-获取当前页面URL.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_002-获取当前页面URL_py - 2020.06.24 at 10h 33m 58s.xml">
       <configuration name="Unittests in 002-获取当前页面URL.py" configurationId="tests" />
     </history-entry>
@@ -440,9 +645,16 @@
     <history-entry file="Unittests_in_001-unittest框架_py - 2021.12.22 at 13h 19m 26s.xml">
       <configuration name="Unittests in 001-unittest框架.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_DataDriven_py - 2023.03.31 at 09h 16m 54s.xml">
+      <configuration name="Unittests in DataDriven.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="230214000" />
+=======
+    <option name="totallyTimeSpent" value="328867000" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,15 +667,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+<<<<<<< HEAD
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
+=======
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.20932755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36225596" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39696312" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -471,7 +693,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26681128" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -528,85 +750,32 @@
     <option name="LAST_COMMIT_MESSAGE" value="appium元素定位" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/driver/driver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/model/myunit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/test_Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/baseView/baseView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python25-09/断言/001-断言页面源码中的关键字.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/Python28-09-logging/日志/002-修改日志级别.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/09自动化/20190626/zuoye.py">
+    <entry file="file://$PROJECT_DIR$/Python45-09/common/desired_caps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python22-09/Xia_la_kuang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="627">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09自动化/20190620/RoomAndTeacher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Python34-09-json,requests/007-超时.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Python34-09-json,requests/006-获取cookie.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/run_test.py">
+    <entry file="file://$PROJECT_DIR$/Python30-09-PO模型/pagedemo/testcase/testSearchPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -615,10 +784,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py">
+    <entry file="file://$PROJECT_DIR$/Python30-09-PO模型/pagedemo/pages/basePage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python30-09-PO模型/pagedemo/pages/searchPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/testtools/python3.8/Lib/site-packages/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/my_logger.py" />
+    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/_city.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/testtools/python3.8/Lib/site-packages/selenium/webdriver/common/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python42,43,44-09-appium/元素定位/007-相对定位.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python22-09/Chuang_kou_ju_bing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-text/li.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-text/1111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/request_Project/test_case/weather_api_unittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z-text/222.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1286617197/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="3657" column="8" selection-start-line="3657" selection-start-column="8" selection-end-line="3657" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/testtools/python3.8/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="614" column="8" selection-start-line="614" selection-start-column="8" selection-end-line="614" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/testtools/python3.8/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="833" column="8" selection-start-line="833" selection-start-column="8" selection-end-line="833" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/test_Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/testtools/python3.8/Lib/site-packages/selenium/common/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/common/common_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python45-09/baseView/baseView.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python27-09-unittest/test_skip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-键盘鼠标操作/鼠标左键/test_1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-键盘鼠标操作/鼠标左键/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -629,57 +945,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python41-09-appium/test_001.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-text/Python10.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/z-text/text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/common/desired_caps.py">
+    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" selection-start-line="9" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="348">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#12#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python45-09/test_run/run.py">
+    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/model/function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="13" />
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/Website/test_case/model/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-text/TextIframe.py">
+    <entry file="file://D:/testtools/python3.8/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-text/li.py">
+    <entry file="file://D:/testtools/python3.8/Lib/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="10412">
+          <caret line="576" column="56" selection-start-line="576" selection-start-column="52" selection-end-line="576" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/z-text/1111.py">
+    <entry file="file://D:/testtools/python3.8/Lib/site-packages/tornado/test/httpserver_test.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="704">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
         </state>
@@ -815,19 +1127,36 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="500">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python45-09/businessView/loginView.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="704">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+=======
+        <state relative-caret-position="19">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自己的测试脚本/压测多线程代码/locust_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#7#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Python27-09-unittest/test_addSub.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -857,14 +1186,118 @@
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/自己的测试脚本/压测多线程代码/test_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+>>>>>>> be6086bf9bb7827b6b40c7be99384b19ed1fcd9f
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/ExcelUtil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="646">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自己的测试脚本/压测多线程代码/text1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-键盘鼠标操作/键盘.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/csv-data/DataCsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/DATAddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自己的测试脚本/压测多线程代码/绿跑后台.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="e#39#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python29-09-数据驱动/excel-data/DataDriven.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/接口封装.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python35-09-接口自动化测试实战/weather_api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-键盘鼠标操作/鼠标悬停/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python24-09/Xian_shi_deng_dai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/driver/driver.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python31-09-selenium项目/driver/chromDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

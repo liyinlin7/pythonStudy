@@ -9,6 +9,7 @@ class LoginPage(Page):
     password_loc = (By.NAME, "password")
     submit_loc = (By.NAME, "Submit")
 
+
     def type_username(self, username):
         self.find_element(*self.username_loc).clear()
         self.find_element(*self.username_loc).send_keys(username)

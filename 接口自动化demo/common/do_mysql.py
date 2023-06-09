@@ -163,8 +163,6 @@ class DoMySql(object):
         return data_dic
 
 
-
-
 if __name__ == '__main__':
     Do = DoMySql()
     Do.connect_mysql_basketball(1)
