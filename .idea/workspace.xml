@@ -2,19 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2474fdee-908d-4f27-a380-9d0a7f7fc038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/自动化学习项目/自己的测试脚本/压测多线程代码/locust_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-monitor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-monitor/test/league_teamId_err.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-monitor/ws/ws_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-sports-basketball-test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-sports-others-test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-sports-test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-test/common/websocket_kog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-test/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/春至/data-test/test_test/websocket11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python项目.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/text_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/text_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/学习项目/text1/第01课-基础.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/学习项目/text1/第01课-基础.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/接口自动化demo/common/do_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/接口自动化demo/common/do_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自动化学习项目/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/自动化学习项目/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动/csv-data/DataCsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动/csv-data/DataCsv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动/excel-data/ExcelUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动/excel-data/ExcelUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自动化学习项目/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/自动化学习项目/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自动化学习项目/Python35-09-接口自动化测试实战/接口封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/自动化学习项目/Python35-09-接口自动化测试实战/接口封装.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/自动化学习项目/自己的测试脚本/压测多线程代码/test_.py" beforeDir="false" afterPath="$PROJECT_DIR$/自动化学习项目/自己的测试脚本/压测多线程代码/test_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-monitor" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-monitor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-monitor/push/to_tracer_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-monitor/push/to_tracer_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-monitor/test/mysqloperation/statmysqloperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-monitor/test/mysqloperation/statmysqloperation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-monitor/test/sql_data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-monitor/test/sql_data_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-monitor/test/test_result_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-monitor/test/test_result_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-monitor/ws/pandascore_ws.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-monitor/ws/pandascore_ws.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-sports-others-test" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-sports-others-test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-sports-others-test/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-sports-others-test/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-sports-test" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-sports-test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-sports-test/conf/pro.conf" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-sports-test/conf/pro.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-sports-test/tasks/runtasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-sports-test/tasks/runtasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-sports-test/test_ws/websocket_basketball.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-sports-test/test_ws/websocket_basketball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-sports-test/test_ws/websocket_football.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-sports-test/test_ws/websocket_football.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-test" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-test/conf/pro.conf" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-test/conf/pro.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-test/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-test/test_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-test/test_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-test/test_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-test/test_result/log/20210322.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/春至/data-test/timed_tasks/sendalarm_li.py" beforeDir="false" afterPath="$PROJECT_DIR$/春至/data-test/timed_tasks/sendalarm_li.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,75 +44,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pythonStudy$002_confirm.coverage" NAME="002-confirm Coverage Results" MODIFIED="1592965799264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
-    <SUITE FILE_PATH="coverage/pythonStudy$001_IFrame.coverage" NAME="001-操作IFrame中的页面元素 Coverage Results" MODIFIED="1650435766713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/iframe定位" />
-    <SUITE FILE_PATH="coverage/pythonStudy$zuoye.coverage" NAME="zuoye Coverage Results" MODIFIED="1592903730888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/09自动化/20190623" />
     <SUITE FILE_PATH="coverage/pythonStudy$001_alert.coverage" NAME="001-alert Coverage Results" MODIFIED="1592965459281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
+    <SUITE FILE_PATH="coverage/pythonStudy$002_confirm.coverage" NAME="002-confirm Coverage Results" MODIFIED="1592965799264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
+    <SUITE FILE_PATH="coverage/pythonStudy$Unittests_in_test_skip_py.coverage" NAME="Unittests in test_skip.py Coverage Results" MODIFIED="1636449255718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python27-09-unittest" />
+    <SUITE FILE_PATH="coverage/pythonStudy$api_json.coverage" NAME="api_json Coverage Results" MODIFIED="1626233952776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haidong-0316/Public" />
+    <SUITE FILE_PATH="coverage/pythonStudy$Unittests_in_DATAddt_py.coverage" NAME="Unittests in DATAddt.py Coverage Results" MODIFIED="1592903652273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动" />
     <SUITE FILE_PATH="coverage/pythonStudy$text.coverage" NAME="text Coverage Results" MODIFIED="1647487797909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python22-09/static/html" />
     <SUITE FILE_PATH="coverage/pythonStudy$003_prompt.coverage" NAME="003-prompt Coverage Results" MODIFIED="1592965546590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/Selenium操作JS控件" />
-    <SUITE FILE_PATH="coverage/pythonStudy$Unittests_in_test_skip_py.coverage" NAME="Unittests in test_skip.py Coverage Results" MODIFIED="1636449255718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python27-09-unittest" />
-    <SUITE FILE_PATH="coverage/pythonStudy$Unittests_in_DATAddt_py.coverage" NAME="Unittests in DATAddt.py Coverage Results" MODIFIED="1592903652273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python29-09-数据驱动" />
-    <SUITE FILE_PATH="coverage/pythonStudy$api_json.coverage" NAME="api_json Coverage Results" MODIFIED="1626233952776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haidong-0316/Public" />
     <SUITE FILE_PATH="coverage/pythonStudy$text_1.coverage" NAME="text_1 Coverage Results" MODIFIED="1646988309260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text" />
+    <SUITE FILE_PATH="coverage/pythonStudy$zuoye.coverage" NAME="zuoye Coverage Results" MODIFIED="1592903730888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/09自动化/20190623" />
+    <SUITE FILE_PATH="coverage/pythonStudy$001_IFrame.coverage" NAME="001-操作IFrame中的页面元素 Coverage Results" MODIFIED="1650435766713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化学习项目/Python25-09/iframe定位" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-键盘鼠标操作/键盘.py">
+        <entry file="file://$PROJECT_DIR$/自动化学习项目/自己的测试脚本/压测多线程代码/绿跑后台.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="308">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#12#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-键盘鼠标操作/鼠标悬停/test_2.html">
+        <entry file="file://$PROJECT_DIR$/春至/data-monitor/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-键盘鼠标操作/鼠标悬停/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/春至/data-sports-basketball-test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/春至/data-sports-others-test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/春至/data-sports-test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/自动化学习项目/自己的测试脚本/压测多线程代码/绿跑后台.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/自动化学习项目/Python45-09/common/common_fun.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/自动化学习项目/Python27-09-unittest/Test_Project/calculator.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/自动化学习项目/Python27-09-unittest/test_order.py">
+        <entry file="file://$PROJECT_DIR$/春至/data-test/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -131,7 +139,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/春至/data-test" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,6 +151,7 @@
         <option value="$PROJECT_DIR$/自动化学习项目/Python22-09/static/html/Chuang_kou_ju_bing.py" />
         <option value="$PROJECT_DIR$/自动化学习项目/Python22-09/static/html/注册A.html" />
         <option value="$PROJECT_DIR$/自动化学习项目/Python22-09/static/html/text.py" />
+        <option value="$PROJECT_DIR$/春至/data-monitor/__init__.py" />
       </list>
     </option>
   </component>
@@ -152,11 +161,74 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="学习项目" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="学习项目" type="462c0819:PsiDirectoryNode" />
+              <item name="text1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+              <item name="data-monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+              <item name="data-sports-basketball-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+              <item name="data-sports-others-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+              <item name="data-sports-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+              <item name="data-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="测试报告脚本" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -168,275 +240,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="测试报告脚本" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="09自动化" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="flask01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python22-09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python24-09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python25-09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python26-09-unittest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python27-09-unittest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python27-09-unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="Test_Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python29-09-数据驱动" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python29-09-数据驱动" type="462c0819:PsiDirectoryNode" />
-              <item name="csv-data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python29-09-数据驱动" type="462c0819:PsiDirectoryNode" />
-              <item name="excel-data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-selenium项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="page_object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-键盘鼠标操作" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-键盘鼠标操作" type="462c0819:PsiDirectoryNode" />
-              <item name="鼠标左键" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python31-09-键盘鼠标操作" type="462c0819:PsiDirectoryNode" />
-              <item name="鼠标悬停" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python41-09-appium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python42,43,44-09-appium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="baseView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="businessView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
-              <item name="test_run" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="自己的测试脚本" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
-              <item name="自己的测试脚本" type="462c0819:PsiDirectoryNode" />
-              <item name="压测多线程代码" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -602,6 +411,7 @@
       <workItem from="1668042463100" duration="603000" />
       <workItem from="1668153887549" duration="854000" />
       <workItem from="1681891467087" duration="48000" />
+      <workItem from="1686273270778" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1626232678932</created>
@@ -640,7 +450,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46550000" />
+    <option name="totallyTimeSpent" value="47547000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -653,13 +463,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29104477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29424307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2548807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -670,7 +479,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -686,51 +495,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11111" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python22-09/By_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python22-09/Chuang_kou_ju_bing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python42,43,44-09-appium/元素定位/009-使用LIST实现注册.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python42,43,44-09-appium/元素定位/003-try异常捕捉.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python42,43,44-09-appium/元素定位/011-xpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python22-09/static/html/text.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -864,15 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#12#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python27-09-unittest/calculator.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -975,7 +730,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-键盘鼠标操作/键盘.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="418">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -985,6 +740,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-键盘鼠标操作/鼠标悬停/test_2.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-键盘鼠标操作/鼠标悬停/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python45-09/common/common_fun.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1016,22 +781,37 @@
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python27-09-unittest/testCase_combine.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-键盘鼠标操作/鼠标悬停/test.py">
+    <entry file="file://$PROJECT_DIR$/自动化学习项目/自己的测试脚本/压测多线程代码/绿跑后台.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-selenium项目/Website/test_case/page_object/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#12#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/自动化学习项目/自己的测试脚本/压测多线程代码/绿跑后台.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/春至/data-monitor/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/春至/data-sports-basketball-test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/春至/data-sports-others-test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/春至/data-sports-test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/春至/data-test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

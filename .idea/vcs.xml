@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/春至/data-monitor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/春至/data-sports-basketball-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/春至/data-sports-others-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/春至/data-sports-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/春至/data-test" vcs="Git" />
   </component>
 </project>
