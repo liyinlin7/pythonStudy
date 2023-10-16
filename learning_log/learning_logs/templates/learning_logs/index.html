@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {#子模板的第一行必须包含标签{% extends %}，让Django知道它继承了哪个父模板。文件base.html位于文件 夹learning_logs中，因此父模板路径中包含learning_logs。#}
+    {#这行 代码导入模板base.html的所有内容，让index.html能够指定要 在content 块预留的空间中添加的内容。#}
+    {% extends "learning_logs/base.html" %}
+    {% block content %}
+        <p>Learning Log helps you keep track of your learning, for any topic you're learning about.</p>
+    {% endblock content %}
+</body>
+</html>

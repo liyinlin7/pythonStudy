@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+{#   为创建链接，使用了一个模板标签 ，它是用花括号和百分号（{% %} ）表示的。模板标签是一小段代码，生成要在页面中显示的信息。#}
+{#   这里的模板标签{% url 'learning_logs:index' %} 生成一个URL，该URL与在learning_logs/urls.py中定义的名为'index' 的URL模式匹配。#}
+        <a href="{% url 'learning_logs:index' %}">Learning Log</a>
+        <a href="{% url 'learning_logs:topics' %}">Topics</a>
+    </p>
+{#     我们插入了一对块 标签。这个块名为content ，是 一个占位符，其中包含的信息由子模板指定。#}
+    {% block content %}{% endblock content %}
+
+</body>
+</html>

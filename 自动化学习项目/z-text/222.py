@@ -1,10 +1,7 @@
 
+import uuid
 
-
-def aa(no = None):
-    print(no)
-    a= 'true'
-    if a == 'true' and no is None:
-        print(1111)
-
-aa()
+for i in range(10):
+    uuid_name = uuid.uuid4()
+    haa = str(uuid_name).split('-')[3]
+    print (haa)

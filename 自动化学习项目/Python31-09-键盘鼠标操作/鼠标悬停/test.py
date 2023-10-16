@@ -5,7 +5,7 @@ import time
 鼠标操作的常用方法：
 perform()：执行
 context_click()：右击
-click_and_hold()：左击
+click_and_hold()：点击鼠标左键，不松开
 double_click():双击
 drag_and_drop()：拖动
 move_to_element():鼠标悬停
