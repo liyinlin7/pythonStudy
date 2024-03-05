@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="2474fdee-908d-4f27-a380-9d0a7f7fc038" name="Default Changelist" comment="" />
 =======
     <list default="true" id="2474fdee-908d-4f27-a380-9d0a7f7fc038" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
 >>>>>>> 2f3a5894ad8ee1ea3831678b41a8650c61f38e86
+=======
+    <list default="true" id="2474fdee-908d-4f27-a380-9d0a7f7fc038" name="Default Changelist" comment="" />
+>>>>>>> 43e1567 (大乐透爬虫)
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/自动化学习项目/Python45-09/common/desired_caps.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,6 +84,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+=======
+>>>>>>> 43e1567 (大乐透爬虫)
         <entry file="file://$PROJECT_DIR$/春至/data-sports-others-test/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -116,6 +123,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/自动化学习项目/Python45-09/logs/runlog.log">
@@ -123,6 +131,9 @@
             <state relative-caret-position="266">
               <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
 =======
+=======
+      <file pinned="false" current-in-tab="false">
+>>>>>>> 43e1567 (大乐透爬虫)
         <entry file="file://$PROJECT_DIR$/春至/data-test/test_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -132,6 +143,31 @@
 >>>>>>> 2f3a5894ad8ee1ea3831678b41a8650c61f38e86
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/春至/data-monitor/requirement.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/春至/data-monitor/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/春至/data-monitor/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/春至/data-monitor/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -187,6 +223,91 @@
             <path>
               <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="学习项目" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="接口自动化demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="接口自动化demo" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="接口自动化demo" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="接口自动化demo" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="接口自动化demo" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="接口自动化demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="接口自动化demo" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="春至" type="462c0819:PsiDirectoryNode" />
+              <item name="data-monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="测试报告脚本" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
+              <item name="Python45-09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化学习项目" type="462c0819:PsiDirectoryNode" />
+              <item name="z-text" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,10 +557,14 @@
       <workItem from="1668153887549" duration="854000" />
       <workItem from="1681891467087" duration="48000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1684835278918" duration="1916000" />
 =======
       <workItem from="1686273270778" duration="1270000" />
 >>>>>>> 2f3a5894ad8ee1ea3831678b41a8650c61f38e86
+=======
+      <workItem from="1686273270778" duration="1466000" />
+>>>>>>> 43e1567 (大乐透爬虫)
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1626232678932</created>
@@ -479,10 +604,14 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="48466000" />
 =======
     <option name="totallyTimeSpent" value="47820000" />
 >>>>>>> 2f3a5894ad8ee1ea3831678b41a8650c61f38e86
+=======
+    <option name="totallyTimeSpent" value="48016000" />
+>>>>>>> 43e1567 (大乐透爬虫)
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -515,7 +644,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -532,6 +661,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="11111" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python42,43,44-09-appium/元素定位/003-try异常捕捉.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,6 +735,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 43e1567 (大乐透爬虫)
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python31-09-selenium项目/Website/test_case/model/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -845,9 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/春至/data-monitor/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/春至/data-sports-basketball-test/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -887,6 +1016,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/自动化学习项目/Python27-09-unittest/Test_Project/calculator.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -925,6 +1055,24 @@
           <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/春至/data-monitor/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/春至/data-monitor/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/春至/data-monitor/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/春至/data-monitor/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 43e1567 (大乐透爬虫)
     </entry>
   </component>
 </project>
