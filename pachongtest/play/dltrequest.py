@@ -5,8 +5,6 @@ from common.do_mysql import DoMySql
 
 class DltRequest(object):
 
-
-
     def request_Dlt(self):
         page_num = 100
         do_my_sql = DoMySql()

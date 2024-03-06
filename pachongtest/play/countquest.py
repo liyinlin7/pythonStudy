@@ -1,5 +1,7 @@
 from common.do_mysql import DoMySql
 import random
+import requests
+import json
 
 
 class CountQuest(object):
@@ -250,6 +252,43 @@ class CountQuest(object):
         print(red_list)
         print(blue_list)
 
+    # 查询是否有重复的数字
+    def contrast(self):
+        page_num = 100
+        do_my_sql = DoMySql()
+        cnn = do_my_sql.connect_mysql()
+        for y in range(1, page_num+1):
+            url = f'https://webapi.sporttery.cn/gateway/lottery/getHistoryPageListV1.qry?gameNo=85&provinceId=0&pageSize=30&isVerify=1&pageNo={y}'
+            data = requests.get(url=url)
+            a = json.loads(data.text)
+            list_number = a['value']['list']
+            for i in list_number:
+                red_1 = 0
+                red_2 = 0
+                red_3 = 0
+                red_4 = 0
+                red_5 = 0
+                blue_1 = 0
+                blue_2 = 0
+                lotteryDrawNum = int(i['lotteryDrawNum'])
+                lotteryDrawResult_list = i['lotteryDrawResult'].split(' ')
+                select_sql = f'SELECT * FROM daletou.number where id = {lotteryDrawNum};'
+                data_dic = do_my_sql.select(cnn=cnn, sql=select_sql)
+                if len(data_dic) == 0:
+                    red_1 = int(lotteryDrawResult_list[0])
+                    red_2 = int(lotteryDrawResult_list[1])
+                    red_3 = int(lotteryDrawResult_list[2])
+                    red_4 = int(lotteryDrawResult_list[3])
+                    red_5 = int(lotteryDrawResult_list[4])
+                    blue_1 = int(lotteryDrawResult_list[5])
+                    blue_2 = int(lotteryDrawResult_list[6])
+                    sql = f'''
+                       SELECT * FROM daletou.number where red_1 ={red_1} and red_2 = {red_2} and red_3 = {red_3} and  red_4 = {red_4} and  red_5 = {red_5};
+                    '''
+                    data = do_my_sql.select(cnn=cnn, sql=sql)
+                    if len(data) != 0:
+                        print(f'red_1 ={red_1} and red_2 = {red_2} and red_3 = {red_3} and  red_4 = {red_4} and red_5 = {red_5}')
+
 
 if __name__ == '__main__':
     cc = CountQuest()
@@ -258,4 +297,5 @@ if __name__ == '__main__':
     # cc.red_sum()
     # cc.blue_sum()
     # cc.red_blue_sum()
-    cc.suiji_num()
+    # cc.suiji_num()
+    cc.contrast()
