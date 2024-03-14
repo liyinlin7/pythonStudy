@@ -9,7 +9,7 @@ class QuestionSql(object):
         self.engine = engine
         self.session = session
 
-    def question_select(self, question_id = '2', question_type = None):
+    def question_select(self, question_id = None, question_type = None):
         if question_id is None and question_type is None:
             result = self.session.query(Questions).all()
         elif question_id and question_type is None:
@@ -51,5 +51,5 @@ if __name__ == '__main__':
     my_sql_driver = MySqlDriver()
     engine, session = my_sql_driver.connect_mysql(env_flag=0)
     question_sql = QuestionSql(engine, session)
-    # question_sql.question_select()
+    question_sql.question_select()
     question_sql.question_leftjoin_userAnswer()

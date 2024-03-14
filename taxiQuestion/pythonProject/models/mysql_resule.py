@@ -1,13 +1,16 @@
 from sqlalchemy import inspect
 
 def result_all_one(result):
+    '''
+     单表查询结果解析
+    :param result:
+    :return:
+    '''
     dict_list = []
     for obj in result:
         inspector = inspect( type( obj ) )
-        dict_row = {attr.key: getattr( obj, attr.key ) for attr in inspector.attrs}
+        dict_row = {attr.key: getattr( obj, attr.key, None ) for attr in inspector.attrs}
         dict_list.append( dict_row )
-    # 打印字典列表
-    print( dict_list )
     return dict_list
 
 def result_leftjoin_all_many(result, fields_dict, table_names ):
@@ -33,7 +36,6 @@ def result_leftjoin_all_many(result, fields_dict, table_names ):
                     for table in table_names:
                         if fields_dict.get(table) is not None:
                             for field in fields_dict.get(table):  # 遍历对应表的字段列表
-                                print(field)
-                                dict_row[field] = None  # 设置字段值为None
+                                dict_row.setdefault(field, None)
             dict_list.append( dict_row )
     return dict_list
