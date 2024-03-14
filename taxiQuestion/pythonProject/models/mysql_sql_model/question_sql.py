@@ -1,8 +1,7 @@
-from sqlalchemy import create_engine, MetaData, ForeignKey
-from sqlalchemy.orm import sessionmaker, relationship, joinedload, aliased
-from models.sql_table_model.user_answer import UserAnswer
 from models.sql_table_model.questions import Questions
+from models.sql_table_model.useranswer import UserAnswer
 from sqlalchemy import and_
+from models.mysql_resule import result_all_one, result_leftjoin_all_many
 
 class QuestionSql(object):
 
@@ -12,44 +11,40 @@ class QuestionSql(object):
 
     def question_select(self, question_id = '2', question_type = None):
         if question_id is None and question_type is None:
-            questions = self.session.query(Questions).all()
+            result = self.session.query(Questions).all()
         elif question_id and question_type is None:
-            questions = self.session.query(Questions).filter( Questions.question_id == question_id )
+            result = self.session.query(Questions).filter( Questions.question_id == question_id )
         elif question_id and question_type:
-            questions = self.session.query(Questions).filter( and_(Questions.question_type == question_type, Questions.question_id == question_id ))
-        questions_as_dict = [
-            {
-                'question_id': question.question_id,
-                'question_answer': question.question_answer,
-                'question_option': question.question_option,
-                'question_title': question.question_title,
-                'question_type': question.question_type,
-                'range': question.range,
-                'type': question.type,
-            } for question in questions
-        ]
-        print( questions_as_dict )
-        return questions_as_dict
+            result = self.session.query(Questions).filter( and_(Questions.question_type == question_type, Questions.question_id == question_id ))
+        __result = result_all_one(result)
+        print(__result)
+        # questions_as_dict = [
+        #     {
+        #         'question_id': question.question_id,
+        #         'question_answer': question.question_answer,
+        #         'question_option': question.question_option,
+        #         'question_title': question.question_title,
+        #         'question_type': question.question_type,
+        #         'range': question.range,
+        #         'type': question.type,
+        #     } for question in questions
+        # ]
+        # print( questions_as_dict )
+        # return questions_as_dict
+
 
     def question_leftjoin_userAnswer(self):
-        query = self.session.query( UserAnswer, Questions ).outerjoin( UserAnswer, and_(Questions.question_id == UserAnswer.question_id ))
-        questions = query.all()
-        questions_as_dict = [
-            {
-                'question_id': question.question_id,
-                'question_answer': question.question_answer,
-                'question_option': question.question_option,
-                'question_title': question.question_title,
-                'question_type': question.question_type,
-                'range': question.range,
-                'type': question.type,
-                'user_question_id': UserAnswer.question_id,
-                'user_answer': UserAnswer.user_answer,
-                'answer_bool': UserAnswer.answer_bool,
-            } for question in questions
-        ]
-        print( questions_as_dict )
-        return questions_as_dict
+        query = self.session.query( Questions, UserAnswer ).outerjoin( UserAnswer, and_(Questions.question_id == UserAnswer.question_id ))
+        # query = self.session.query( Questions ).options( joinedload( Questions.useranswer ) ).all()
+        result = query.all()
+        fields_dict = {}
+        table_name = []
+        fields_dict['useranswer'] = UserAnswer.useranswer_key
+        table_name.append(Questions.__tablename__)
+        table_name.append(UserAnswer.__tablename__)
+        __result = result_leftjoin_all_many( result, fields_dict, table_name )
+        print( __result )
+
 
 if __name__ == '__main__':
     from models.my_sql_driver import MySqlDriver

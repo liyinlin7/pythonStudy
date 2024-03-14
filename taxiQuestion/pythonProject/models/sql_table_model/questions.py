@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.orm import relationship, declarative_base
-# from models.sql_table_model.user_answer import UserAnswer
+from sqlalchemy.orm import relationship
+from sqlalchemy.ext.declarative import declarative_base
 
 
 Base = declarative_base()
@@ -15,5 +15,3 @@ class Questions(Base):
     question_type = Column(Integer, nullable=False)
     range = Column(Integer, nullable=False)
     type = Column(Integer, nullable=False)
-    # 关系属性，反向指向  UserAnswer
-    user_answer = relationship( "UserAnswer", back_populates="question" )
