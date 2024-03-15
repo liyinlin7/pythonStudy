@@ -13,11 +13,12 @@ class MySqlDriver(object):
 
     def __init__(self):
         self.test_mysql = eval(ReadConfig().read_config(read_path.conf_path, 'TEST_MYSQL', 'Config'))
+        self.env_flag = 0
         # self.engine = create_engine('mysql+pymysql://username:password@localhost/dbname')
 
-    def connect_mysql(self, env_flag):
+    def connect_mysql(self):
         config = None
-        if env_flag == 0:
+        if self.env_flag == 0:
             config = self.test_mysql
         username = config.get("user")
         password = config.get("password")
@@ -38,7 +39,7 @@ class MySqlDriver(object):
                 cnn_conut += 1
                 logging.error('第{}次连接数据库失败：{}'.format(cnn_conut, e))
 
-    def test_connection(self, engine):
+    def mysql_ping(self, engine):
         """测试数据库是否正常连接"""
         try:
             engine.connect()
@@ -48,8 +49,15 @@ class MySqlDriver(object):
             logging.info('ping失败：{}'.format(e))
             result = False
         return result
+    def mysql_repeat(self, _engine, _session):
+        if self.mysql_ping(_engine):
+            engine, session =  _engine, _session
+        else:
+            engine, session = self.connect_mysql()
+        return engine, session
+
 
 if __name__ == '__main__':
     Do = MySqlDriver()
-    engine, session = Do.connect_mysql(0)
-    Do.test_connection(engine)
+    engine, session = Do.connect_mysql()
+    Do.mysql_repeat(engine, session)

@@ -2,6 +2,8 @@ from models.sql_table_model.questions import Questions
 from models.sql_table_model.useranswer import UserAnswer
 from sqlalchemy import and_
 from models.mysql_resule import result_all_one, result_leftjoin_all_many
+import logging
+from common import my_logger
 
 class QuestionSql(object):
 
@@ -9,13 +11,25 @@ class QuestionSql(object):
         self.engine = engine
         self.session = session
 
-    def question_select(self, question_id = None, question_type = None):
-        if question_id is None and question_type is None:
-            result = self.session.query(Questions).all()
-        elif question_id and question_type is None:
-            result = self.session.query(Questions).filter( Questions.question_id == question_id )
-        elif question_id and question_type:
-            result = self.session.query(Questions).filter( and_(Questions.question_type == question_type, Questions.question_id == question_id ))
+
+    def question_select(self, question_id = '2', question_type = '2'):
+        search_conditions = {
+            'question_id': question_id,
+            'question_type': question_type
+        }
+        query = self.session.query( Questions )
+        for field, value in search_conditions.items():
+            if value is not None:  # 如果有值，添加为搜索条件
+                query = query.filter( getattr( Questions, field ) == value )
+        result = query.all()
+        # if question_id is None and question_type is None:
+        #     result = self.session.query(Questions).all()
+        # elif question_type and question_id is None:
+        #     result = self.session.query(Questions).filter( Questions.question_type == question_type )
+        # elif question_id and question_type is None:
+        #     result = self.session.query(Questions).filter( Questions.question_id == question_id )
+        # elif question_id and question_type:
+        #     result = self.session.query(Questions).filter( and_(Questions.question_type == question_type, Questions.question_id == question_id ))
         __result = result_all_one(result)
         print(__result)
         # questions_as_dict = [
@@ -31,7 +45,6 @@ class QuestionSql(object):
         # ]
         # print( questions_as_dict )
         # return questions_as_dict
-
 
     def question_leftjoin_userAnswer(self):
         query = self.session.query( Questions, UserAnswer ).outerjoin( UserAnswer, and_(Questions.question_id == UserAnswer.question_id ))
@@ -49,7 +62,8 @@ class QuestionSql(object):
 if __name__ == '__main__':
     from models.my_sql_driver import MySqlDriver
     my_sql_driver = MySqlDriver()
-    engine, session = my_sql_driver.connect_mysql(env_flag=0)
+    engine, session = my_sql_driver.connect_mysql()
+    engine, session = my_sql_driver.mysql_repeat(engine, session)
     question_sql = QuestionSql(engine, session)
     question_sql.question_select()
-    question_sql.question_leftjoin_userAnswer()
+    # question_sql.question_leftjoin_userAnswer()
