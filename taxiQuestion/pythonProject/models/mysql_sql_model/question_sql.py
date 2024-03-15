@@ -12,7 +12,7 @@ class QuestionSql(object):
         self.session = session
 
 
-    def question_select(self, question_id = '2', question_type = '2'):
+    def question_select(self, question_id:list=None, question_type:list=None):
         search_conditions = {
             'question_id': question_id,
             'question_type': question_type
@@ -20,16 +20,8 @@ class QuestionSql(object):
         query = self.session.query( Questions )
         for field, value in search_conditions.items():
             if value is not None:  # 如果有值，添加为搜索条件
-                query = query.filter( getattr( Questions, field ) == value )
+                query = query.filter( getattr( Questions, field ).in_(value) )
         result = query.all()
-        # if question_id is None and question_type is None:
-        #     result = self.session.query(Questions).all()
-        # elif question_type and question_id is None:
-        #     result = self.session.query(Questions).filter( Questions.question_type == question_type )
-        # elif question_id and question_type is None:
-        #     result = self.session.query(Questions).filter( Questions.question_id == question_id )
-        # elif question_id and question_type:
-        #     result = self.session.query(Questions).filter( and_(Questions.question_type == question_type, Questions.question_id == question_id ))
         __result = result_all_one(result)
         print(__result)
         # questions_as_dict = [
