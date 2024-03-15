@@ -45,6 +45,7 @@ class QuestionCustomSql(object):
         # 将结果转换为字典列表并打印
         result_dict = [dict(zip(keys, row)) for row in rows]
         print( result_dict )
+        return result_dict
         # questions_as_dict = [
         #     {
         #         'question_id': question.question_id,
@@ -98,6 +99,7 @@ class QuestionCustomSql(object):
             keys = result.keys()
         result_dict = [dict( zip( keys, row ) ) for row in rows]
         print( result_dict )
+        return result_dict
 
 
 if __name__ == '__main__':

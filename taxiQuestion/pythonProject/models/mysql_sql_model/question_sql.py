@@ -12,6 +12,13 @@ class QuestionSql(object):
         self.session = session
 
     def question_select_and(self, question_id:list=None, question_type:list=None):
+        """
+           根据提供的问题ID和问题类型筛选问题。
+
+           :param question_id: 一个包含问题ID的列表，可选参数，默认为None。
+           :param question_type: 一个包含问题类型的列表，可选参数，默认为None。
+           :return: 没有返回值，该函数目前打印查询结果，但注释表明之前有返回字典列表的意图。
+           """
         columns = {
             'question_id': None,
             'question_type': None,
@@ -27,6 +34,7 @@ class QuestionSql(object):
         result = query.all()
         __result = result_all_one(result)
         print(__result)
+        return __result
         # questions_as_dict = [
         #     {
         #         'question_id': question.question_id,
@@ -76,7 +84,7 @@ class QuestionSql(object):
         table_name.append(UserAnswer.__tablename__)
         __result = result_leftjoin_all_many( result, fields_dict, table_name )
         print( __result )
-
+        return __result
 
 if __name__ == '__main__':
     from models.my_sql_driver import MySqlDriver
