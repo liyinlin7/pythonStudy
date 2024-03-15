@@ -5,23 +5,19 @@ from models.mysql_resule import result_all_one, result_leftjoin_all_many
 import logging
 from common import my_logger
 
-class QuestionSql(object):
+class QuestionCustomSql(object):
 
     def __init__(self, engine, session):
         self.engine = engine
         self.session = session
 
     def question_select_and(self, question_id:list=None, question_type:list=None):
-        columns = {
-            'question_id': None,
-            'question_type': None,
-        }
         for var_name in ['question_id', 'question_type']:
             var_value = locals()[var_name]
             if var_value is not None:
-                columns[var_name] = var_value
+                self.question_conditions[var_name] = var_value
         query = self.session.query( Questions )
-        for field, value in columns.items():
+        for field, value in self.question_conditions.items():
             if value is not None:  # 如果有值，添加为搜索条件
                 query = query.filter( getattr( Questions, field ).in_(value) )
         result = query.all()
@@ -42,30 +38,22 @@ class QuestionSql(object):
         # return questions_as_dict
 
     def question_leftjoin_userAnswer_and(self, question_id:list=None, question_type:list=None, user_answer:list=None):
-        question_conditions = {
-            'question_id': None,
-            'question_type': None,
-        }
-        user_answer_conditions = {
-            'user_answer': None,
-            'answer_bool': None
-        }
         for var_name in ['question_id', 'question_type']:
             var_value = locals()[var_name]
             if var_value is not None:
-                question_conditions[var_name] = var_value
+                self.question_conditions[var_name] = var_value
         for var_name in ['user_answer']:
             var_value = locals()[var_name]
             if var_value is not None:
-                user_answer_conditions[var_name] = var_value
+                self.user_answer_conditions[var_name] = var_value
         query = (self.session.query( Questions, UserAnswer )
                  .outerjoin( UserAnswer, and_(Questions.question_id == UserAnswer.question_id )))
         # 添加 Questions 的搜索条件
-        for field, value in question_conditions.items():
+        for field, value in self.question_conditions.items():
             if value is not None:  # 如果有值，添加为搜索条件
                 query = query.filter( getattr( Questions, field ).in_(value) )
         # 添加 UserAnswer 的搜索条件
-        for field, value in user_answer_conditions.items():
+        for field, value in self.user_answer_conditions.items():
             if value is not None:  # 如果有值，添加为搜索条件
                 query = query.filter( getattr( UserAnswer, field ).in_(value) )
         result = query.all()
@@ -85,4 +73,4 @@ if __name__ == '__main__':
     engine, session = my_sql_driver.mysql_repeat(engine, session)
     question_sql = QuestionSql(engine, session)
     # question_sql.question_select_and()
-    question_sql.question_leftjoin_userAnswer_and(user_answer=['11', '33'])
+    question_sql.question_leftjoin_userAnswer_and()
