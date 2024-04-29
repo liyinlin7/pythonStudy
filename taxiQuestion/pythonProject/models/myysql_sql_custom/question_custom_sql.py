@@ -1,9 +1,3 @@
-from models.sql_table_model.questions import Questions
-from models.sql_table_model.useranswer import UserAnswer
-from sqlalchemy import and_
-from models.mysql_resule import result_all_one, result_leftjoin_all_many
-import logging
-from common import my_logger
 from sqlalchemy import text
 
 class QuestionCustomSql(object):
@@ -13,38 +7,38 @@ class QuestionCustomSql(object):
         self.session = session
 
     # def question_select_custom_and(self, question_id=['1','2'], question_type:list=['1','2']):
-    def question_select_custom_and(self, question_id=None, question_type:list=None):
+    def question_select_custom_and(self, question_id: list=None, question_type: list=None):
         conditions = []
         params = {}
         # 添加条件到查询中
         if question_id is not None:
             # sql += " where question_id = :question_id"
             # params['question_id'] = question_id
-            placeholders_id = ', '.join( [':id' + str( i ) for i in range( len( question_id ) )] )
+            placeholders_id = ', '.join([':id' + str(i) for i in range(len(question_id))])
             conditions.append(" question_id IN (" + placeholders_id  + ")")
             # 为每个占位符添加对应的问题类型
-            for i, id in enumerate( question_id ):
-                params['id' + str( i )] = id
+            for i, id in enumerate(question_id):
+                params['id' + str(i)] = id
         if question_type is not None:
             # sql += " and question_type = :question_type"
             # params['question_type'] = question_type
-            placeholders_type = ', '.join( [':type' + str( i ) for i in range( len( question_type ) )] )
+            placeholders_type = ', '.join([':type' + str(i) for i in range(len(question_type))])
             conditions.append(" question_type IN (" + placeholders_type + ")")
             # 为每个占位符添加对应的问题类型
-            for i, type in enumerate( question_type ):
-                params['type' + str( i )] = type
+            for i, type in enumerate(question_type):
+                params['type' + str(i)] = type
         # 构建SQL查询
         sql = "SELECT * FROM questions"
         if conditions:
-            sql += " WHERE " + " AND ".join( conditions )
+            sql += " WHERE " + " AND ".join(conditions)
         # 执行查询
         with session.begin():
-            result = session.execute( text( sql ), params )
+            result = session.execute(text(sql), params)
             rows = result.fetchall()
             keys = result.keys()
         # 将结果转换为字典列表并打印
         result_dict = [dict(zip(keys, row)) for row in rows]
-        print( result_dict )
+        print(result_dict)
         return result_dict
         # questions_as_dict = [
         #     {
@@ -68,16 +62,16 @@ class QuestionCustomSql(object):
         if question_id is not None:
             # sql += " where question_id = :question_id"
             # params['question_id'] = question_id
-            placeholders_id = ', '.join( [':id' + str( i ) for i in range( len( question_id ) )] )
-            conditions.append( " questions.question_id IN (" + placeholders_id + ")" )
+            placeholders_id = ', '.join([':id' + str(i) for i in range(len(question_id))])
+            conditions.append(" questions.question_id IN (" + placeholders_id + ")")
             # 为每个占位符添加对应的问题类型
-            for i, id in enumerate( question_id ):
+            for i, id in enumerate(question_id):
                 params['id' + str( i )] = id
         if question_type is not None:
             # sql += " and question_type = :question_type"
             # params['question_type'] = question_type
-            placeholders_type = ', '.join( [':type' + str( i ) for i in range( len( question_type ) )] )
-            conditions.append( " questions.question_type IN (" + placeholders_type + ")" )
+            placeholders_type = ', '.join([':type' + str(i) for i in range( len( question_type ) )] )
+            conditions.append(" questions.question_type IN (" + placeholders_type + ")" )
             # 为每个占位符添加对应的问题类型
             for i, type in enumerate( question_type ):
                 params['type' + str( i )] = type
