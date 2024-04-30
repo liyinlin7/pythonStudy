@@ -10,8 +10,11 @@ class Questions(Base):
 
     question_id = Column(String(255), primary_key=True, nullable=False)
     question_answer = Column(String(16), nullable=False)
-    question_option = Column(String(255), nullable=False)
     question_title = Column(String(255), nullable=False)
+    correct_answer = Column(String(255), nullable=False)
     question_type = Column(Integer, nullable=False)
     range = Column(Integer, nullable=False)
+    number = Column(Integer, nullable=False)
     type = Column(Integer, nullable=False)
+    collect = Column(Integer, nullable=False)
+

@@ -1,10 +1,7 @@
 from sqlalchemy import text
+from models.mySql_mode import MySqlMode
 
-class QuestionCustomSql(object):
-
-    def __init__(self, engine, session):
-        self.engine = engine
-        self.session = session
+class QuestionCustomSql(MySqlMode):
 
     # def question_select_custom_and(self, question_id=['1','2'], question_type:list=['1','2']):
     def question_select_custom_and(self, question_id: list=None, question_type: list=None):
@@ -32,8 +29,8 @@ class QuestionCustomSql(object):
         if conditions:
             sql += " WHERE " + " AND ".join(conditions)
         # 执行查询
-        with session.begin():
-            result = session.execute(text(sql), params)
+        with self.session.begin():
+            result = self.session.execute(text(sql), params)
             rows = result.fetchall()
             keys = result.keys()
         # 将结果转换为字典列表并打印
@@ -87,8 +84,8 @@ class QuestionCustomSql(object):
         if conditions:
             sql += " WHERE " + " AND ".join( conditions )
         # 执行查询
-        with session.begin():
-            result = session.execute( text( sql ), params )
+        with self.session.begin():
+            result = self.session.execute( text( sql ), params )
             rows = result.fetchall()
             keys = result.keys()
         result_dict = [dict( zip( keys, row ) ) for row in rows]
@@ -99,8 +96,8 @@ class QuestionCustomSql(object):
 if __name__ == '__main__':
     from models.my_sql_driver import MySqlDriver
     my_sql_driver = MySqlDriver()
-    engine, session = my_sql_driver.connect_mysql()
-    engine, session = my_sql_driver.mysql_repeat(engine, session)
-    question_sql = QuestionCustomSql(engine, session)
+    # engine, session = my_sql_driver.connect_mysql()
+    # engine, session = my_sql_driver.mysql_repeat(engine, session)
+    question_sql = QuestionCustomSql()
     # question_sql.question_select_custom_and()
     question_sql.question_leftjoin_userAnswer_coustom_and()
