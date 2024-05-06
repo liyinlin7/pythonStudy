@@ -34,8 +34,6 @@ def query_by_type():
         "question_id" : question_id,
         "question_type" : question_type
     }
-    # if type_value not in type__:
-    #     return jsonify( {'error': 'Invalid type_value'} ), 400
     customer = QuestionSql().question_select_and(dic)
     return customer
 

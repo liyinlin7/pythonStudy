@@ -1,8 +1,12 @@
 from flask import Flask, url_for
-from flask import request
+from flask import request, jsonify
 from controller.user_opt import user_opt
 from controller.customer_opt import customer_opt
+from models.mysql_sql_model.users_sql import UsersSql
+from flask_cors import CORS,cross_origin
+import uuid
 app = Flask(__name__)
+CORS(app, resources={r"/login": {"origins": "http://127.0.0.1:8080"}})
 # import config
 
 # 注册蓝图，并指定其对应的前缀（url_prefix）
@@ -19,9 +23,19 @@ def hello_world():
     return 'Hello World!'
 
 
-@app.route('/login')
+@app.route('/login', methods=['POST'])
+@cross_origin(origin='http://127.0.0.1:8080', supports_credentials=True)
 def login():
-    return 'Login'
+    dic = {
+        'user_phone': [request.json.get('user_phone')],
+        'password': [request.json.get('password')]
+    }
+    usersSql = UsersSql()
+    user_bool = usersSql.users_select_and(dic)
+    if user_bool == True:
+        return jsonify( {'message': '成功', 'token': uuid.uuid4()} ), 200
+    else:
+        return jsonify( {'error': '用户账号密码错误'} ), 500
 
 # @app.route('/user/<username>')
 # def show_user_profile(username):
