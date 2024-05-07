@@ -12,7 +12,7 @@ class QuestionSql(MySqlMode):
         super(QuestionSql, self).__init__()
         self._engine, self._session = self.mysql_repeat(self.engine, self.session)
 
-    def question_select_and(self, dic):
+    def question_select_and(self, dic, page_size, page_index):
         """
            根据提供的问题ID和问题类型筛选问题。
 
@@ -36,9 +36,13 @@ class QuestionSql(MySqlMode):
         for field, value in columns.items():
             if value is not None:  # 如果有值，添加为搜索条件
                 query = query.filter( getattr( Questions, field ).in_(value) )
-        result = query.all()
+        # 计算偏移量
+        offset = (page_index - 1) * page_size
+        # 执行查询并分页
+        result = query.offset( offset ).limit( page_size ).all()
+        total_count = query.count()
         __result = result_all_one(result)
-        return __result
+        return __result, total_count
 
     def question_leftjoin_userAnswer_and(self, question_id:list=None, question_type:list=None, user_answer:list=None):
         question_conditions = {
@@ -83,5 +87,5 @@ if __name__ == '__main__':
     # engine, session = my_sql_driver.connect_mysql()
     # engine, session = my_sql_driver.mysql_repeat(engine, session)
     question_sql = QuestionSql()
-    # question_sql.question_select_and()
-    question_sql.question_leftjoin_userAnswer_and(user_answer=['11', '33'])
+    question_sql.question_select_and(dic={}, page_size=10, page_index=2)
+    # question_sql.question_leftjoin_userAnswer_and(user_answer=['11', '33'])

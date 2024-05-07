@@ -57,7 +57,7 @@ export default {
                         // localStorage.setItem('isLogin', 'yes')  //  localStorage  跟cookies 差不多，本地存储数据，关闭浏览器也会继续存在,不安全
                         sessionStorage.setItem('token', token)  //  sessionStorage  跟cookies 差不多，本地存储数据，关闭浏览器就会清除
                         ElMessage.success(response.data.msg)   // 消息类型：success、warning、info、error
-                        router.push('/about')
+                        router.push('/home')
                     })
                     .catch((error) => {  //  接口失败之后执行方法
                         console.log(error)

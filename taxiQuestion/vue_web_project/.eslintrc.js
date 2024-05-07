@@ -25,5 +25,6 @@ module.exports = {
     'comma-dangle': 0, // 禁止末尾逗号
     quotes: 0, //强制一致地使用反引号、双引号或单引号。
     "no-trailing-spaces": 0, // 禁用行尾空格
+    'eqeqeq': 0,  // 关闭 '===' 和 '==' 的检查
   }
 }

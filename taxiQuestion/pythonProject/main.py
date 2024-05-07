@@ -4,9 +4,11 @@ from controller.user_opt import user_opt
 from controller.customer_opt import customer_opt
 from models.mysql_sql_model.users_sql import UsersSql
 from flask_cors import CORS,cross_origin
+from models.mysql_sql_model.question_sql import QuestionSql
 import uuid
 app = Flask(__name__)
-CORS(app, resources={r"/login": {"origins": "http://127.0.0.1:8080"}})
+# CORS(app, resources={r"/login": {"origins": "http://127.0.0.1:8080"}})
+CORS(app, resources={r"/*": {"origins": "*"}})
 # import config
 
 # 注册蓝图，并指定其对应的前缀（url_prefix）
@@ -36,6 +38,24 @@ def login():
         return jsonify( {'message': '成功', 'token': uuid.uuid4()} ), 200
     else:
         return jsonify( {'error': '用户账号密码错误'} ), 500
+
+@app.route('/questions', methods=['GET'])
+@cross_origin(origin='http://127.0.0.1:8080', supports_credentials=True)
+def questions():
+    # 从查询字符串中获取 page_size，并设置默认值
+    page_size = request.args.get( 'page_size', type=int, default=10 )
+    # 注意这里使用了 'pageIndex' 而不是 'page_index'（保持与查询字符串一致）
+    page_index = request.args.get( 'pageIndex', type=int,default=1 )
+    dic = {
+        'question_id': None,
+        'question_type': None
+    }
+    questionSql = QuestionSql()
+    __result, total_count = questionSql.question_select_and(dic, page_size=page_size, page_index=page_index)
+    if len(__result) != 0:
+        return jsonify( {'message': '成功', 'data': __result, 'total': total_count} ), 200
+    else:
+        return jsonify( {'error': '查询失败或没有数据'} ), 404
 
 # @app.route('/user/<username>')
 # def show_user_profile(username):
