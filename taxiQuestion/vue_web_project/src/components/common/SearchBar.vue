@@ -9,7 +9,7 @@
             </el-col>
             <el-col :span="12">
             <el-form-item label="题目归属">
-                <el-select v-model="form.type" placeholder="请选择归属区域" style="width:100%;">
+                <el-select v-model="form.type_op" placeholder="请选择归属区域" style="width:100%;">
                 <el-option v-for="item in typeData" :key="item.key"  :label="item" :value="item"></el-option>
                 <!-- <el-option label="区域一" value="shanghai"></el-option>
                 <el-option label="区域二" value="beijing"></el-option> -->

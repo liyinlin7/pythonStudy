@@ -23,7 +23,7 @@ export default {
                 question_id: '',
                 question_type: [],
                 range: [],
-                type_op: '',
+                type: '',
                 collect: []
             },
         })
