@@ -86,7 +86,7 @@ export default {
             getData(pageSize.value, index, formData)
             }
         const typeData = inject('typeData')
-        const clear = () => {
+        const clear = (pageSize, index) => {
             // state.form.questionId = ''
             console.log(state.form)
             state.form = {
@@ -96,6 +96,9 @@ export default {
                     type: '',
                     collect: []
                 }
+            const formData = JSON.stringify(state.form)
+            // console.log('formCopy:',  formCopy.value)
+            getData(pageSize.value, index, formData)
             }
         return {
                 ...toRefs(state),
