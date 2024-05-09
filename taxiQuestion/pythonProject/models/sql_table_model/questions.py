@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, Integer, String, ForeignKey, text
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -16,5 +16,5 @@ class Questions(Base):
     range = Column(Integer, nullable=False)
     number = Column(Integer, nullable=False)
     type = Column(Integer, nullable=False)
-    collect = Column(Integer, nullable=False)
+    collect = Column(Integer, nullable=False, server_default=text("1"))
 

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { reactive, toRefs, inject, ref } from 'vue'
+import { reactive, toRefs, inject } from 'vue'
 
 export default {
     setup () {
@@ -34,12 +34,13 @@ export default {
         // const state = reactive({
         //     form: formRef.value
         // })
+
         // 1.总数据条数
         const total = inject("total")
         // 2. 每页显示多少条
         const pageSize = inject('pageSize')
         // 3.第几页
-        const currentPage = ref(1)
+        const currentPage = inject("currentPage")
         // 5.每页显示条数下拉的改变
         const getData = inject("getData")
         const handleSizeChange = (size) => {
@@ -61,7 +62,6 @@ export default {
             total,
             pageSize,
             getData,
-            currentPage,
         }
     }
 }

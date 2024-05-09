@@ -104,6 +104,20 @@ class QuestionCustomSql(MySqlMode):
         result_list.sort(key=len)
         return result_list
 
+    def question_update_collect(self, question_id, collect):
+        if question_id is not None and collect is not None:
+            sql = f"update questions  set collect = :collect where question_id = :question_id;"
+            # query = self.session.query( Questions.type.distinct() ).group_by(Questions.type)
+            with self.session.begin():
+                result = self.session.execute( text( sql ) , {"collect": collect, "question_id": question_id} )
+                rows_affected = result.rowcount
+                print(rows_affected)
+                if rows_affected == 0:
+                    return "没有更新任何记录"
+                else:
+                    return f"更新了{rows_affected}条记录"
+        else:
+            return "参数错误"
 
 
 if __name__ == '__main__':

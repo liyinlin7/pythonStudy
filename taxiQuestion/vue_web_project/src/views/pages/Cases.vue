@@ -23,7 +23,7 @@ export default {
                 question_id: '',
                 question_type: [],
                 range: [],
-                type: '',
+                type_op: '',
                 collect: []
             },
         })
@@ -58,7 +58,7 @@ export default {
                 title: '是否收藏',
                 field: 'collect',
                 formatter: (row, column, cellValue, index) => {
-                    return cellValue === 1 ? '没收藏' : '收藏'
+                    return cellValue === 1 ? '未收藏' : '已收藏'
                 }
                 // icon: 'el-icon-time',  //图标信息-非必填
             }
@@ -91,8 +91,9 @@ export default {
         }
         // 3. 当页面挂载完毕，自动从后台获取数据
         const pageSize = ref(10)
+        const currentPage = ref(1)
         onMounted(() => {
-            console.log('加载')
+            // console.log('加载')
             getData(pageSize.value, 1, formCopy.value)
             getType()
         })
@@ -104,6 +105,7 @@ export default {
         provide('pageSize', pageSize)  // 4.5 每页显示条数
         provide('typeData', typeData)
         provide('formCopy', formCopy)
+        provide('currentPage', currentPage)
         return {
             ...toRefs(state),
             columns,
