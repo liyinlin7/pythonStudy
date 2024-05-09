@@ -92,6 +92,19 @@ class QuestionCustomSql(MySqlMode):
         print( result_dict )
         return result_dict
 
+    def question_types_groupBy(self):
+        sql = "SELECT type FROM questions group by type"
+        # query = self.session.query( Questions.type.distinct() ).group_by(Questions.type)
+        with self.session.begin():
+            result = self.session.execute( text( sql ) )
+            rows = result.fetchall()
+            keys = result.keys()
+        # 将结果转换为字典列表并打印
+        result_list = [ row[0] for row in rows]
+        result_list.sort(key=len)
+        return result_list
+
+
 
 if __name__ == '__main__':
     from models.my_sql_driver import MySqlDriver

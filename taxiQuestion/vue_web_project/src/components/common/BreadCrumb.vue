@@ -17,8 +17,8 @@ export default {
         })
         const route = useRoute()   // 获取当前路由
         state.routeList = route.matched   // 获取当前路由的数组
-        console.log('route', route)
-        console.log('state.routeList', state.routeList)
+        // console.log('route', route)
+        // console.log('state.routeList', state.routeList)
         return {
             ...toRefs(state),
         }

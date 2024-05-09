@@ -26,9 +26,14 @@ import { reactive, toRefs, inject, ref } from 'vue'
 
 export default {
     setup () {
+        const formCopy = inject('formCopy')
         const state = reactive({
-            count: 0,
+            form: formCopy.value
         })
+        // console.log('formRef', formRef.value)
+        // const state = reactive({
+        //     form: formRef.value
+        // })
         // 1.总数据条数
         const total = inject("total")
         // 2. 每页显示多少条
@@ -45,7 +50,9 @@ export default {
         // 6.当前页码的改变，触发方法
         const handleCurrentChange = (index) => {
             // currentPage.value = index
-            getData(pageSize.value, index)
+            console.log(state.form)
+            const formData = JSON.stringify(state.form)
+            getData(pageSize.value, index, formData)
         }
         return {
             ...toRefs(state),
