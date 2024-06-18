@@ -4,7 +4,7 @@ from models.mySql_mode import MySqlMode
 class QuestionCustomSql(MySqlMode):
 
     # def question_select_custom_and(self, question_id=['1','2'], question_type:list=['1','2']):
-    def question_select_custom_and(self, question_id: list=None, question_type: list=None):
+    def question_select_custom_and(self, question_id: list=None, question_type: list=None, range_: list=None, type_: list=None):
         conditions = []
         params = {}
         # 添加条件到查询中
@@ -16,13 +16,29 @@ class QuestionCustomSql(MySqlMode):
             # 为每个占位符添加对应的问题类型
             for i, id in enumerate(question_id):
                 params['id' + str(i)] = id
-        if question_type is not None:
+        if question_type is not None and question_type != []:
             # sql += " and question_type = :question_type"
             # params['question_type'] = question_type
-            placeholders_type = ', '.join([':type' + str(i) for i in range(len(question_type))])
-            conditions.append(" question_type IN (" + placeholders_type + ")")
+            placeholders_question_type = ', '.join([':question_type' + str(i) for i in range(len(question_type))])
+            conditions.append(" question_type IN (" + placeholders_question_type + ")")
             # 为每个占位符添加对应的问题类型
-            for i, type in enumerate(question_type):
+            for i, questionType in enumerate(question_type):
+                params['question_type' + str(i)] = questionType
+        if range_ is not None and range_ != []:
+            # sql += " and question_type = :question_type"
+            # params['question_type'] = question_type
+            placeholders_range = ', '.join([':range' + str(i) for i in range(len(range_))])
+            conditions.append(" `range` IN (" + placeholders_range + ")")
+            # 为每个占位符添加对应的问题类型
+            for i, _range in enumerate(range_):
+                params['range' + str(i)] = _range
+        if type_ is not None and type_ != []:
+            # sql += " and question_type = :question_type"
+            # params['question_type'] = question_type
+            placeholders_type = ', '.join([':type' + str(i) for i in range(len(type_))])
+            conditions.append(" type IN (" + placeholders_type + ")")
+            # 为每个占位符添加对应的问题类型
+            for i, type in enumerate(type_):
                 params['type' + str(i)] = type
         # 构建SQL查询
         sql = "SELECT * FROM questions"
@@ -35,21 +51,7 @@ class QuestionCustomSql(MySqlMode):
             keys = result.keys()
         # 将结果转换为字典列表并打印
         result_dict = [dict(zip(keys, row)) for row in rows]
-        print(result_dict)
         return result_dict
-        # questions_as_dict = [
-        #     {
-        #         'question_id': question.question_id,
-        #         'question_answer': question.question_answer,
-        #         'question_option': question.question_option,
-        #         'question_title': question.question_title,
-        #         'question_type': question.question_type,
-        #         'range': question.range,
-        #         'type': question.type,
-        #     } for question in result
-        # ]
-        # print( questions_as_dict )
-        # return questions_as_dict
 
     def question_leftjoin_userAnswer_coustom_and(self, question_id:list=None, question_type:list=None, user_answer:list=None):
     # def question_leftjoin_userAnswer_coustom_and(self, question_id=['1','2'], question_type:list=['2','3'],  user_answer:list=None):
@@ -111,7 +113,6 @@ class QuestionCustomSql(MySqlMode):
             with self.session.begin():
                 result = self.session.execute( text( sql ) , {"collect": collect, "question_id": question_id} )
                 rows_affected = result.rowcount
-                print(rows_affected)
                 if rows_affected == 0:
                     return "没有更新任何记录"
                 else:

@@ -10,5 +10,5 @@ import zhCn  from 'element-plus/es/locale/lang/zh-cn'   // 导入中文语言包
     size：表单默认组件尺寸大小  small(小的)/mini(最小)/medium(中等)
     zIndex: 弹框尺寸大小， 默认是2000
 */
-
-createApp(App).use(store).use(router).use(ElementPlus,  { locale: zhCn }).mount('#app')
+const app = createApp(App)
+app.use(store).use(router).use(ElementPlus,  { locale: zhCn }).mount('#app')

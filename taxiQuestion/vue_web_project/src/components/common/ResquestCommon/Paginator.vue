@@ -31,9 +31,8 @@ export default {
         const total = inject("total")
         // 2. 每页显示多少条
         const pageSize = inject('pageSize')
-        // const pageIndex = inject('pageIndex')
         // 3.第几页
-        const currentPage_ = inject('currentPage')
+        const currentPage_ = inject("currentPage")
         const state = reactive({
             form: formCopy.value,
             currentPage: currentPage_.value
@@ -45,15 +44,13 @@ export default {
         // 5.每页显示条数下拉的改变
         const getData = inject("getData")
         const handleSizeChange = (size) => {
-            // pageSize.value = size
-            // currentPage.value = index
             state.currentPage = 1
             getData(size, state.currentPage)
         }
         // 6.当前页码的改变，触发方法
         const handleCurrentChange = (index) => {
-            // console.log('index', index)
             // currentPage.value = index
+            // console.log(state.form)
             const formData = JSON.stringify(state.form)
             getData(pageSize.value, index, formData)
         }

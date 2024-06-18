@@ -46,7 +46,23 @@ const routes = [
           icon: '<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" data-v-029747aa=""><path fill="currentColor" d="M389.44 768a96.064 96.064 0 0 1 181.12 0H896v64H570.56a96.064 96.064 0 0 1-181.12 0H128v-64h261.44zm192-288a96.064 96.064 0 0 1 181.12 0H896v64H762.56a96.064 96.064 0 0 1-181.12 0H128v-64h453.44zm-320-288a96.064 96.064 0 0 1 181.12 0H896v64H442.56a96.064 96.064 0 0 1-181.12 0H128v-64h133.44z"></path></svg>',
           cName: '考试管理',
         },
-        component: () => import('../views/pages/Resquests.vue')
+        component: () => import('../views/pages/Resquests.vue'),
+        children: [
+          {
+            path: 'addView',
+            meta: {
+              cName: '考试新增',
+            },
+            component: () => import('../views/pages/detail/ResquestsView.vue')
+          },
+          {
+            path: 'startView/:paperId',
+            meta: {
+              cName: '试卷答题',
+            },
+            component: () => import('../views/pages/detail/StartView.vue')
+          }
+        ]
       },
       {
         path: '/plans',
@@ -66,15 +82,15 @@ const routes = [
           }
         ]
       },
-      // {
-      //   path: '/reports',
-      //   name: 'reports',
-      //   meta: {
-      //     icon: '<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" data-v-029747aa=""><path fill="currentColor" d="M128 224v512a64 64 0 0 0 64 64h640a64 64 0 0 0 64-64V224H128zm0-64h768a64 64 0 0 1 64 64v512a128 128 0 0 1-128 128H192A128 128 0 0 1 64 736V224a64 64 0 0 1 64-64z"></path><path fill="currentColor" d="M904 224 656.512 506.88a192 192 0 0 1-289.024 0L120 224h784zm-698.944 0 210.56 240.704a128 128 0 0 0 192.704 0L818.944 224H205.056z"></path></svg>',
-      //     cName: '测试报告',
-      //   },
-      //   component: () => import('../views/pages/Reports.vue')
-      // }
+      {
+        path: '/reports',
+        name: 'reports',
+        meta: {
+          icon: '<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" data-v-029747aa=""><path fill="currentColor" d="M128 224v512a64 64 0 0 0 64 64h640a64 64 0 0 0 64-64V224H128zm0-64h768a64 64 0 0 1 64 64v512a128 128 0 0 1-128 128H192A128 128 0 0 1 64 736V224a64 64 0 0 1 64-64z"></path><path fill="currentColor" d="M904 224 656.512 506.88a192 192 0 0 1-289.024 0L120 224h784zm-698.944 0 210.56 240.704a128 128 0 0 0 192.704 0L818.944 224H205.056z"></path></svg>',
+          cName: '错题库',
+        },
+        component: () => import('../views/pages/Reports.vue')
+      }
     ]
   }
 ]
@@ -88,7 +104,7 @@ router.beforeEach((to, from, next) => {
   if (to.path === '/') {
     next()
   } else if (sessionStorage.getItem('token') !== '' && sessionStorage.getItem('token') !== null) {
-    console.log(sessionStorage.getItem('token'))
+    // console.log(sessionStorage.getItem('token'))
     next()
   } else {
     // next(false)

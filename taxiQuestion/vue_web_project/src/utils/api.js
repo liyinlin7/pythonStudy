@@ -11,7 +11,13 @@ document.cookie = 'csrftoken=VDxqKsO49WaQR3RMc30ICLOWTe3ivH4wpGyvzTgv4Qjm02qJFvW
 document.cookie = 'sessionid=tj8dyg0rcshhgcgj6wka1dtuql0djw3f'
 
 export const postResquest = (url, data, head) => {
-    return axios.post(url, data)
+    console.log('head', head)
+    console.log('data', typeof data)
+    if (head === undefined) {
+        return axios.post(url, data)
+    } else {
+        return axios.post(url, data, head)
+    }
 }
 
 export const deleteResquest = (url, params) => {

@@ -2,14 +2,19 @@
     <el-form ref="formCopy" :model="form" label-width="80px">
     <!-- <el-form ref="formRef" :model="form" label-width="80px"> -->
         <el-row :gutter="20">
-            <el-col :span="12">
-            <el-form-item label="题目id">
-                <el-input v-model="form.question_id" style="width:100%;"></el-input>
+            <el-col :span="8">
+            <el-form-item label="试卷id">
+                <el-input v-model="form.paperId" style="width:100%;"></el-input>
             </el-form-item>
             </el-col>
-            <el-col :span="12">
+            <el-col :span="8">
+            <el-form-item label="试卷名称">
+                <el-input v-model="form.paperName" style="width:100%;"></el-input>
+            </el-form-item>
+            </el-col>
+            <el-col :span="8">
             <el-form-item label="题目归属">
-                <el-select v-model="form.type_op" clearable placeholder="请选择归属区域" style="width:100%;">
+                <el-select v-model="form.paperType" multiple  placeholder="请选择归属区域" style="width:100%;">
                 <el-option v-for="item in typeData" :key="item.key"  :label="item" :value="item"></el-option>
                 <!-- <el-option label="区域一" value="shanghai"></el-option>
                 <el-option label="区域二" value="beijing"></el-option> -->
@@ -20,7 +25,7 @@
         <el-row :gutter="20">
             <el-col :span="10">
             <el-form-item label="题目类型">
-                <el-checkbox-group v-model="form.question_type">
+                <el-checkbox-group v-model="form.paperQuestionType">
                 <el-checkbox label="选择题" name="question_type" value="1"></el-checkbox>
                 <el-checkbox label="判断题" name="question_type" value="2"></el-checkbox>
                 <el-checkbox label="其他" name="question_type" value="3"></el-checkbox>
@@ -29,30 +34,32 @@
             </el-col>
             <el-col :span="8">
             <el-form-item label="范围">
-                <el-checkbox-group v-model="form.range">
+                <el-checkbox-group v-model="form.paperRange">
                 <el-checkbox label="区域" name="range" value="1"></el-checkbox>
                 <el-checkbox label="全国" name="range" value="2"></el-checkbox>
                 </el-checkbox-group>
             </el-form-item>
             </el-col>
-            <el-col :span="6">
+            <!-- <el-col :span="6">
             <el-form-item label="是否收藏">
                 <el-checkbox-group v-model="form.collect">
                 <el-checkbox label="已收藏" name="collect" value="0"></el-checkbox>
                 <el-checkbox label="未收藏" name="collect" value="1"></el-checkbox>
                 </el-checkbox-group>
-            </el-form-item>
-            </el-col>
+            </el-form-item> -->
+            <!-- </el-col> -->
         </el-row>
         <el-form-item>
             <el-button type="primary" @click="onSubmit">搜索</el-button>
             <el-button @click="clear">重置</el-button>
+            <el-button type="primary" @click="createPaper()">新建试卷</el-button>
         </el-form-item>
     </el-form>
 </template>
 
 <script>
 import { reactive, toRefs, inject } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 // import { useRoute } from 'vue-router'  // 导入路由， 不是useRouter路由器
 
 export default {
@@ -77,8 +84,7 @@ export default {
         // console.log('state.routeList', state.routeList)
         const onSubmit = () => {
             const formData = JSON.stringify(state.form)
-            // console.log('currentPage:',  currentPage.value)
-            // console.log('pageSize:',  pageSize.value)
+            // console.log('formCopy:',  formCopy.value)
             getData(pageSize.value, currentPage.value, formData)
             }
         const typeData = inject('typeData')
@@ -86,16 +92,21 @@ export default {
             // state.form.questionId = ''
             // console.log(state.form)
             state.form = {
-                    question_id: '',
-                    question_type: [],
-                    range: [],
-                    type_op: '',
-                    collect: []
+                    paperId: '',
+                    paperName: '',
+                    paperType: [],
+                    paperRange: [],
+                    paperQuestionType: [],
+                    createTime: ''
                 }
             const formData = JSON.stringify(state.form)
             // console.log('formCopy:',  formCopy.value)
-            // console.log('pageSize:',  pageSize.value)
             getData(pageSize.value, currentPage.value, formData)
+            }
+        const router = useRouter()
+        const route = useRoute()
+        const createPaper = () => {
+            router.push(`${route.path}/` + 'addView')
             }
         return {
                 ...toRefs(state),
@@ -106,6 +117,7 @@ export default {
                 onSubmit,
                 clear,
                 typeData,
+                createPaper
             }
         }
     }

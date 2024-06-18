@@ -49,15 +49,15 @@ export default {
             if (!ruleFormRef) return
             await ruleFormRef.validate((valid, fields) => {
                 if (valid) {
-                    console.log('submit!')
+                    // console.log('submit!')
                     postResquest('/login', loginForm)  // 引用导入封装的axios方法
                     .then((response) => {  // 接口成功之后执行方法
-                        console.log(response)
+                        // console.log(response)
                         const token = response.data.token
                         // localStorage.setItem('isLogin', 'yes')  //  localStorage  跟cookies 差不多，本地存储数据，关闭浏览器也会继续存在,不安全
                         sessionStorage.setItem('token', token)  //  sessionStorage  跟cookies 差不多，本地存储数据，关闭浏览器就会清除
                         ElMessage.success(response.data.msg)   // 消息类型：success、warning、info、error
-                        router.push('/home')
+                        router.push('/questions')
                     })
                     .catch((error) => {  //  接口失败之后执行方法
                         console.log(error)

@@ -39,8 +39,8 @@
 import { reactive, toRefs, ref } from 'vue'
 import touxiang from '@/assets/头像.png'
 import { Apple, Setting, Tools } from '@element-plus/icons-vue'  //  导入需要使用的 icon
-import { getResquest } from '@/utils/api.js'  // 导入自己封装的 axios
-import { ElMessage } from 'element-plus'  //  导入使用 element的消息提示插件
+// import { getResquest } from '@/utils/api.js'  // 导入自己封装的 axios
+// import { ElMessage } from 'element-plus'  //  导入使用 element的消息提示插件
 import { useRouter } from 'vue-router'  // 导入路由器
 
 export default {
@@ -53,20 +53,22 @@ export default {
         })
         const activeIndex = ref('1')
         const handleSelect = (key, keyPath) => {
-            console.log(key, keyPath)
+            // console.log(key, keyPath)
         }
         const router = useRouter()
         const loginOut = () => {
-            getResquest('/logout/')
-            .then((response) => {
-                ElMessage.success(response.data.msg)
-                // localStorage.setItem('isLogin', 'no')  //  localStorage  跟cookies 差不多，本地存储数据，关闭浏览器也会继续存在,不安全
-                sessionStorage.setItem('token', '')  //  sessionStorage  跟cookies 差不多，本地存储数据，关闭浏览器就会清除
-                router.push('/')
-            })
-            .catch((error) => {
-                ElMessage.error('系统错误：' + error)
-            })
+            sessionStorage.setItem('token', '')  //  sessionStorage  跟cookies 差不多，本地存储数据，关闭浏览器就会清除
+            router.push('/')
+            // getResquest('/logout/')
+            // .then((response) => {
+            //     ElMessage.success(response.data.msg)
+            //     // localStorage.setItem('isLogin', 'no')  //  localStorage  跟cookies 差不多，本地存储数据，关闭浏览器也会继续存在,不安全
+            //     sessionStorage.setItem('token', '')  //  sessionStorage  跟cookies 差不多，本地存储数据，关闭浏览器就会清除
+            //     router.push('/')
+            // })
+            // .catch((error) => {
+            //     ElMessage.error('系统错误：' + error)
+            // })
         }
         return {
             ...toRefs(state),

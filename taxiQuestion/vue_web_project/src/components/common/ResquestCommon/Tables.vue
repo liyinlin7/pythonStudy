@@ -8,7 +8,8 @@
     <el-table-column label="操作">
       <template #default="scope">
         <!-- <el-button size="small" @click="handleEdit(scope.$index, scope.row)">修改</el-button> -->
-        <el-button size="small" type="danger" @click="updateCollect(scope.$index, scope.row)">{{ scope.row.collect === 1 ? '收藏' : '取消收藏' }} </el-button>
+        <el-button size="small" type="primary" @click="start(scope.$index, scope.row)">开始练习</el-button>
+        <el-button size="small" type="danger" @click="deletePager(scope.$index, scope.row)">删除</el-button>
       </template>
     </el-table-column>
   </el-table>
@@ -41,25 +42,21 @@ export default {
         const handleEdit = (index, row) => {
           // console.log('tableData', tableData)
           // console.log('修改方法被调用：', index, row)
-          router.push(`${route.path}/` + row.question_id)
+          // router.push(`${route.path}/` + row.question_id)
+          router.push(`${route.path}/` + 'addView')
         }
         const getData = inject("getData")
         const pageSize = inject('pageSize')
-        const updateCollect = (index, row) => {
-          // console.log('收藏方法被调用：', index, row)
+        const deletePager = (index, row) => {
+          // console.log('修改方法被调用：', index, row)
           let dataValue = {
-            question_id: row.question_id,
-            collect: null
-          }
-          if (row.collect === 1) {
-            dataValue.collect = 0
-          } else if (row.collect === 0) {
-            dataValue.collect = 1
+            paperId: row.paperId
           }
           let headers = {
             'Content-Type': 'application/json'
           }
-          postResquest(`/questions_opt/updateCollect`, dataValue, headers)
+          // console.log('dataValue', dataValue)
+          postResquest(`/paper_opt/deletePaper`, dataValue, headers)
           .then((res) => {
               ElMessage.success(res.data.message)
               const formData = JSON.stringify(state.form)
@@ -67,15 +64,24 @@ export default {
             }
           )
           .catch((err) => {
+            try {
               ElMessage.err(err.data.message)
+            } catch (error) {
+              ElMessage.err(error)
+            }
           })
+        }
+        const start = (index, row) => {
+            let paperId = row.paperId
+            router.push(`${route.path}/` + 'startView/' + `${paperId}`)
         }
         return {
             ...toRefs(state),
             tableData,
             columns,
             handleEdit,
-            updateCollect
+            deletePager,
+            start
         }
     }
 }

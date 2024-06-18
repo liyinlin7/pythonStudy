@@ -120,18 +120,18 @@ export default {
       ],
     })
     function submitForm() {
-      console.log('submitForm')
+      // console.log('submitForm')
     }
     function resetForm() {
-      console.log('resetForm')
+      // console.log('resetForm')
     }
     const route = useRoute()
     // 获取动态路由别名ID的值
-    const caseId_ = route.params.id
-    console.log(caseId_)
+    const caseIds = route.params.id
+    // console.log(caseId_)
     // 载入用例详情
     const caseId = route.path.split('/').pop() //取路径末尾的ID
-    console.log(caseId)
+    // console.log(caseId)
     // caseDetail(caseId).then((resp) => {
     //   console.log(resp.data)
     //   const caseDetail = resp.data.retlist[0]
@@ -144,6 +144,8 @@ export default {
       caseForm,
       submitForm,
       resetForm,
+      caseIds,
+      caseId
     }
   },
 }
