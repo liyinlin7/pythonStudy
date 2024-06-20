@@ -110,10 +110,16 @@ export default {
         }
         const targetChar = 'A'
         const charIndex = state.dataTitle.indexOf(targetChar)
+        console.log('charIndex', charIndex)
         // 截取到特定字符前的内容
-        state.titleBefor = state.dataTitle.substring(0, charIndex)
-        // 截取特定字符后的所有内容
-        state.titleAfter = state.dataTitle.substring(charIndex)
+        if (charIndex !== -1) {
+          state.titleBefor = state.dataTitle.substring(0, charIndex)
+          // 截取特定字符后的所有内容
+          state.titleAfter = state.dataTitle.substring(charIndex)
+        } else {
+          state.titleBefor = state.dataTitle
+        }
+
         option_.value = state.option
       }
     })
