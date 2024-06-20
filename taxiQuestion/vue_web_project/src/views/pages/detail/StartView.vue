@@ -36,7 +36,8 @@
     <el-col :span="6">
       <div class="grid-container">
         <el-button circle v-for="number_ in numbers" :key="number_" @click="onButtonClick(number_)"
-        :class="['ellipse-button', 'circle', { 'light-blue-background': number === number_ }]">
+        :class="['ellipse-button', 'circle', { 'light-blue-background': number === number_ },
+        { 'answer-background': isNaN(paperQuestionData[ number_ -1 ].user_answer) }]">
         {{ number_ }}
         </el-button>
       </div>
@@ -161,6 +162,7 @@ export default {
       postResquest(`/paper_opt/updatePaperQuestion`, dataValue, headers)
           .then((res) => {
               ElMessage.success(res.data.message)
+              state.paperQuestionData[state.number -  1].user_answer = option.value
               next()
             }
           )
@@ -251,5 +253,8 @@ export default {
 }
 .light-blue-background {
   background-color: lightblue; /* 设置为你想要的浅蓝色 */
+}
+.answer-background {
+  background-color: rgb(173, 230, 195); /* 设置为你想要的浅蓝色 */
 }
 </style>
