@@ -135,6 +135,25 @@ export default {
           type_op: []
       },
     })
+    const getData = (pageSize, pageIndex, form) => {
+        let form_ = {
+            range: state.form.paperRange,
+            type_op: state.form.paperType,
+            question_type: state.form.paperQuestionType
+        }
+        const formData = JSON.stringify(form_)
+        currentPage.value = pageIndex
+        // pageSize.value = pageSize
+        getResquest(`/questions?page_size=${pageSize}&pageIndex=${pageIndex}&arges=${formData}`) // 使用 ` 反引号 然后 ${形参} 引用
+        .then(
+            (res) => {
+                // 2.1 列表数据
+                tableData.value = res.data.data
+                // 2.2 总数据条数
+                total.value = res.data.total
+            }
+        )
+    }
     const typeData = inject('typeData')
     function open() {
       ElMessageBox.prompt('请输入创建考卷名称 ', '提示', {
@@ -178,23 +197,23 @@ export default {
     // 3.第几页
     const currentPage = ref(1)
     const tableData = ref([])
-    const getData = (pageSize, pageIndex, form) => {
-                currentPage.value = pageIndex
-                getResquest(`/questions?page_size=${pageSize}&pageIndex=${pageIndex}&arges=${form}`) // 使用 ` 反引号 然后 ${形参} 引用
-                // getResquest('/requests/', { page_size: pageSize, page_index: pageIndex })
-                .then(
-                    (res) => {
-                        // console.log("res", res.data.data)
-                        // 2.1 列表数据
-                        // console.log('res.data.data', res.data.data)
-                        tableData.value = res.data.data
-                        // console.log('tableData', tableData.value)
-                        // tableData.value = res.data.retlist
-                        // 2.2 总数据条数
-                        total.value = res.data.total
-                    }
-                )
-            }
+    // const getData = (pageSize, pageIndex, form) => {
+    //             currentPage.value = pageIndex
+    //             getResquest(`/questions?page_size=${pageSize}&pageIndex=${pageIndex}&arges=${form}`) // 使用 ` 反引号 然后 ${形参} 引用
+    //             // getResquest('/requests/', { page_size: pageSize, page_index: pageIndex })
+    //             .then(
+    //                 (res) => {
+    //                     // console.log("res", res.data.data)
+    //                     // 2.1 列表数据
+    //                     // console.log('res.data.data', res.data.data)
+    //                     tableData.value = res.data.data
+    //                     // console.log('tableData', tableData.value)
+    //                     // tableData.value = res.data.retlist
+    //                     // 2.2 总数据条数
+    //                     total.value = res.data.total
+    //                 }
+    //             )
+    //         }
     const handleSizeChange = (size) => {
         pageSize.value = size
         const formData = JSON.stringify(state.form)

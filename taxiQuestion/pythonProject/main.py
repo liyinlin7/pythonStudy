@@ -24,7 +24,7 @@ app.register_blueprint(questions_opt, url_prefix="/questions_opt")
 # app.config.from_object(config)
 # 配置db
 # db.init_app(app)
-
+questionSql = QuestionSql()
 
 @app.route('/')
 def hello_world():
@@ -54,7 +54,7 @@ def questions():
     page_index = request.args.get( 'pageIndex', type=int, default=1 )
     form_ = request.args.get( 'arges', default=None )
     __form = None
-    # print(form_)
+    print(form_)
     if form_ == '[object Object]' or form_ == 'undefined':
         __form = {}
     elif form_ is None:
@@ -64,15 +64,13 @@ def questions():
         __form = json.loads(form_)
     print('__form', __form )
     dic = {
-        'question_id': __form.get('question_id'),
+        'question_id': __form.get('question_id') ,
         'question_type': __form.get('question_type'),
         'range': __form.get('range'),
         'collect': __form.get('collect'),
         'type': __form.get('type_op')
     }
-    questionSql = QuestionSql()
     __result, total_count = questionSql.question_select_and(dic=dic, page_size=page_size, page_index=page_index)
-    print(__result)
     if len(__result) != 0:
         return jsonify( {'message': '成功', 'data': __result, 'total': total_count} ), 200
     else:
