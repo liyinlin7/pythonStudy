@@ -137,7 +137,7 @@ export default {
       }
     }
     const commit = () => {
-      console.log(option.value)
+      // console.log(option.value)
       state.questionAnswer = state.paperQuestionData[state.number - 1].question_answer
       if (state.questionAnswer === '对') {
         state.questionAnswer = '正确'
