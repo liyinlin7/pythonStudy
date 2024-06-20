@@ -72,6 +72,7 @@ def questions():
     }
     questionSql = QuestionSql()
     __result, total_count = questionSql.question_select_and(dic=dic, page_size=page_size, page_index=page_index)
+    print(__result)
     if len(__result) != 0:
         return jsonify( {'message': '成功', 'data': __result, 'total': total_count} ), 200
     else:

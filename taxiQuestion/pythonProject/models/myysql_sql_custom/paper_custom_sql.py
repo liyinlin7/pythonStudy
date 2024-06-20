@@ -27,7 +27,7 @@ class PaperCustomSql(MySqlMode):
             })
             rows_affected = result.rowcount
             if rows_affected == 0:
-                return "试卷创建失败"
+                return 0
             else:
                 return f"{paper_id}试卷创建成功"
 

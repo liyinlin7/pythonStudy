@@ -20,15 +20,18 @@ class PaperQuestionCustomSql(MySqlMode):
             else:
                 return f"{question_id}插入成功"
 
-    def paper_question_select(self,paperId, questionBool):
+    def paper_question_select(self,paperId, questionBool, questionId):
         sql = f"""SELECT * FROM  `taxi`.`paper_questions` WHERE `paper_id` = :paperId"""
         if questionBool and questionBool != 'undefined':
             sql += f" AND `question_bool` = :questionBool"
-        sql += f" limit 1, 10000;"
+        if questionId and questionId != 'undefined':
+            sql += f" AND `question_id` = :questionId"
+        sql += f" limit 0, 10000;"
         with self.session.begin():
             result = self.session.execute( text( sql ), {
                 "paperId": paperId,
-                "questionBool": questionBool
+                "questionBool": questionBool,
+                "questionId": questionId
             } )
             total_count = result.rowcount
             rows = result.fetchall()
@@ -43,6 +46,22 @@ class PaperQuestionCustomSql(MySqlMode):
             }
             __result.append(row_map)
         return __result, total_count
+
+    def paper_question_update(self,paperId, questionId, userAnswer, questionBool):
+        sql = f"""update taxi.paper_questions set user_answer= :userAnswer, question_bool= :questionBool
+        where paper_id = :paperId and question_id= :questionId ;"""
+        with self.session.begin():
+            result = self.session.execute( text( sql ), {
+                "paperId": paperId,
+                "userAnswer": userAnswer,
+                "questionId": questionId,
+                "questionBool": questionBool
+            } )
+        rows_affected = result.rowcount
+        if rows_affected == 0:
+            return 0
+        else:
+            return f"提交成功"
 
 if __name__ == '__main__':
     from models.my_sql_driver import MySqlDriver

@@ -12,6 +12,8 @@ import uuid
 from flask_cors import CORS,cross_origin
 paper_opt = Blueprint('paper_opt', __name__)
 paperCustomSql = PaperCustomSql()
+questionCustomSql = QuestionCustomSql()
+paperQuestionCustomSql = PaperQuestionCustomSql()
 
 # 查（按 id 查）
 @paper_opt.route('/query_id', methods=['GET'])
@@ -73,8 +75,6 @@ def query_install_paper():
                                                                     paper_question_type=paper_question_type)
     err_count = 0
     if len( __result ) != 0:
-        questionCustomSql = QuestionCustomSql()
-        paperQuestionCustomSql = PaperQuestionCustomSql()
         result_dict = questionCustomSql.question_select_custom_and(question_type=paper_question_type, type_=paper_type, range_=paper_range)  # 查询试卷类型的所有题目
         if result_dict is not None:
             for i in range(len(result_dict)):
@@ -104,7 +104,7 @@ def query_delete_paper():
         paperId = data.get( 'paperId' )  # 假设 JSON 中有一个名为 'collect' 的键
     result = paperCustomSql.paper_delete(paperId)
     result_ = paperCustomSql.paper_question_delete(paperId)
-    print(result)
+    # print(result)
     if len( result ) != 0 and len( result_ ) != 0:
         return jsonify( {'message': result} ), 200
     else:
@@ -115,10 +115,41 @@ def query_delete_paper():
 def query_select_paper_question():
     paperId = request.args.get( 'paperId' )
     questionBool = request.args.get( 'questionBool' )
-    paperQuestionCustomSql = PaperQuestionCustomSql()
-    __result, total_count = paperQuestionCustomSql.paper_question_select( paperId=paperId, questionBool=questionBool )
+    questionId = request.args.get( 'questionId' )
+    __result, total_count = paperQuestionCustomSql.paper_question_select( paperId=paperId, questionBool=questionBool, questionId=questionId )
     # print(__result)
     if len( __result ) != 0:
         return jsonify( {'message': '成功', 'data': __result, 'total': total_count} ), 200
     else:
         return jsonify( {'message': '查询失败或没有数据'} ), 200
+
+@paper_opt.route('/updatePaperQuestion', methods=['POST'])
+@cross_origin(origin='http://127.0.0.1:8080', supports_credentials=True)
+def query_update_paper_question():
+    paperId = None
+    userAnswer = None
+    questionId = None
+    questionBool = None
+    # 如果数据是通过表单传递的
+    if request.method == 'POST' and request.form:
+        paperId = request.form.get( 'paperId' )  # 假设表单中有一个名为 'collect' 的字段
+        userAnswer = request.form.get( 'userAnswer' )  # 假设表单中有一个名为 'collect' 的字段
+        questionId = request.form.get( 'questionId' )  # 假设表单中有一个名为 'collect' 的字段
+        questionBool = request.form.get( 'questionBool' )  # 假设表单中有一个名为 'collect' 的字段
+    # 如果数据是通过 JSON 传递的
+    elif request.method == 'POST' and request.is_json:
+        data = request.get_json()
+        paperId = data.get( 'paperId' )  # 假设 JSON 中有一个名为 'collect' 的键
+        userAnswer = data.get( 'userAnswer' )  # 假设 JSON 中有一个名为 'collect' 的键
+        questionId = data.get( 'questionId' )  # 假设 JSON 中有一个名为 'collect' 的键
+        questionBool = data.get( 'questionBool' )  # 假设 JSON 中有一个名为 'collect' 的键
+    print(paperId, userAnswer, questionId, questionBool)
+    if paperId is not None and userAnswer is not None and questionId is not None and questionBool is not None:
+        result = paperQuestionCustomSql.paper_question_update(paperId=paperId, questionId=questionId, userAnswer=userAnswer, questionBool=questionBool)
+        # print(result)
+        if len( result ) != 0:
+            return jsonify( {'message': result} ), 200
+        else:
+            return jsonify( {'message': '提交答案失败'} ), 404
+    else:
+        return jsonify( {'message': '参数错误'} ), 500
