@@ -253,8 +253,9 @@ export default {
 }
 .light-blue-background {
   background-color: lightblue; /* 设置为你想要的浅蓝色 */
+  border: 1px solid #3399FF;
 }
 .answer-background {
-  background-color: rgb(173, 230, 195); /* 设置为你想要的浅蓝色 */
+  background-color: rgb(207, 247, 222); /* 设置为你想要的浅蓝色 */
 }
 </style>
