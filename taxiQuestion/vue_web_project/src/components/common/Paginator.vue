@@ -54,7 +54,7 @@ export default {
         const handleCurrentChange = (index) => {
             // console.log('index', index)
             // currentPage.value = index
-            const formData = JSON.stringify(state.form)
+            const formData = JSON.stringify(formCopy.value)
             getData(pageSize.value, index, formData)
         }
         return {

@@ -54,7 +54,7 @@ def questions():
     page_index = request.args.get( 'pageIndex', type=int, default=1 )
     form_ = request.args.get( 'arges', default=None )
     __form = None
-    print(form_)
+    # print(form_)
     if form_ == '[object Object]' or form_ == 'undefined':
         __form = {}
     elif form_ is None:
@@ -62,7 +62,7 @@ def questions():
     else:
         # print('form_', form_)
         __form = json.loads(form_)
-    print('__form', __form )
+    # print('__form', __form )
     dic = {
         'question_id': __form.get('question_id') ,
         'question_type': __form.get('question_type'),

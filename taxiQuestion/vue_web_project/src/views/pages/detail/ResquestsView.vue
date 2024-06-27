@@ -177,11 +177,20 @@ export default {
       getData(pageSize.value, currentPage.value, formData)
     }
     function onSubmit() {
+      console.log('state.form.paperType', state.form.paperType)
       let headers = {
             'Content-Type': 'application/json'
           }
+      if (state.form.paperRange.length == 0) {
+        state.form.paperRange = [1, 2]
+      }
+      if (state.form.paperQuestionType.length == 0) {
+        state.form.paperQuestionType = [1, 2, 3]
+      }
+      if (state.form.paperType.length == 0) {
+        state.form.paperType = typeData.value.map(item => item)
+      }
       // const formData = JSON.stringify(state.form)
-      // console.log('typeof formData', typeof formData)
       postResquest(`/paper_opt/paperInstall`, state.form, headers)
       router.push('/resquests')
     }

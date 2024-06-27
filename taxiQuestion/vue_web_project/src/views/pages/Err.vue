@@ -1,6 +1,6 @@
 <template>
     <!--  $route.path  获取当前路由地址 -->
-    <div v-if="$route.path === '/questions'">
+    <div v-if="$route.path === '/err'">
         <MainLayout></MainLayout>
     </div>
     <router-view v-else></router-view>
@@ -9,7 +9,7 @@
 <script>
 // 跨组件传参，引入 provide
 import { reactive, toRefs, onMounted, ref, provide } from 'vue'
-import MainLayout from '@/components/common/MainLayout.vue'
+import MainLayout from '@/components/common/ErrCommon/MainLayout.vue'
 import { getResquest } from '@/utils/api.js'
 
 export default {
@@ -24,7 +24,8 @@ export default {
                 question_type: [],
                 range: [],
                 type_op: '',
-                collect: []
+                collect: [],
+                question_bool: 'False'
             },
         })
         // 1.定义标题/字段对象数组
@@ -69,14 +70,11 @@ export default {
         const total = ref(0) // 定义一个响应式数据
         const getData = (pageSize, pageIndex, form) => {
                 currentPage.value = pageIndex
-                // console.log('pageIndex', pageIndex)
-                // console.log('form', form)
                 if (form.question_id === 'undefined') {
                     pageIndex = 1
                 }
-                // console.log('pageIndex', pageIndex)
                 // pageSize.value = pageSize
-                getResquest(`/questions?page_size=${pageSize}&pageIndex=${pageIndex}&arges=${form}`) // 使用 ` 反引号 然后 ${形参} 引用
+                getResquest(`/paper_opt/errQuestion?page_size=${pageSize}&pageIndex=${pageIndex}&arges=${form}`) // 使用 ` 反引号 然后 ${形参} 引用
                 .then(
                     (res) => {
                         // 2.1 列表数据

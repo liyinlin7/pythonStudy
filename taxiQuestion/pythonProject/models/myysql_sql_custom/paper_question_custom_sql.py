@@ -19,7 +19,6 @@ class PaperQuestionCustomSql(MySqlMode):
                 return f"题目试卷关联插入{question_id}失败"
             else:
                 return f"{question_id}插入成功"
-
     def paper_question_select(self,paperId, questionBool, questionId):
         sql = f"""SELECT * FROM  `taxi`.`paper_questions` WHERE `paper_id` = :paperId"""
         if questionBool and questionBool != 'undefined':
@@ -46,7 +45,6 @@ class PaperQuestionCustomSql(MySqlMode):
             }
             __result.append(row_map)
         return __result, total_count
-
     def paper_question_update(self,paperId, questionId, userAnswer, questionBool):
         sql = f"""update taxi.paper_questions set user_answer= :userAnswer, question_bool= :questionBool
         where paper_id = :paperId and question_id= :questionId ;"""
@@ -59,9 +57,21 @@ class PaperQuestionCustomSql(MySqlMode):
             } )
         rows_affected = result.rowcount
         if rows_affected == 0:
-            return 0
+            return f"提交答案失败"
         else:
             return f"提交成功"
+    def paper_question_err(self,questionBool):
+        sql = f"""SELECT question_id FROM  `taxi`.`paper_questions` WHERE `question_bool` = :questionBool  group by question_id"""
+        with self.session.begin():
+            result = self.session.execute( text( sql ), {
+                "questionBool": questionBool
+            } )
+        # total_count = result.rowcount
+        __result = result.fetchall()
+        result = ''
+        for row in __result:
+            result += row[0] + ','
+        return result
 
 if __name__ == '__main__':
     from models.my_sql_driver import MySqlDriver

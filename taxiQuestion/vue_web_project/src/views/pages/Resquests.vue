@@ -47,10 +47,14 @@ export default {
                         let listItems = []
                         listItems = JSON.parse(arrayData)
                         let str = ''
-                        for (let i = 0; i < listItems.length; i++) {
-                            str += listItems[i] + ','
+                        if (listItems.length == 20) {
+                            return '全部'
+                        } else {
+                            for (let i = 0; i < listItems.length; i++) {
+                                str += listItems[i] + ','
+                            }
+                            return str.substring(0, str.length - 1)
                         }
-                        return str.substring(0, str.length - 1)
                     } else {
                         return cellValue !== null ?  cellValue : '全部'
                     }
@@ -59,13 +63,23 @@ export default {
                 title: '范围',
                 field: 'paperRange',
                 formatter: (row, column, cellValue, index) => {
-                    return cellValue === 1 ? '区域' : (cellValue === 2 ? '全国' : '全部')
+                    const correctedStr = cellValue.replace(/'/g, '"') // 替换单引号为双引号
+                    const list = JSON.parse(correctedStr)
+                    if (list.length === 2) {
+                        return '全部'
+                    } else {
+                        return list[0] == 1 ? '区域' : '全国'
+                    }
                 }
             }, {
                 title: '题目类型',
                 field: 'paperQuestionType',
                 formatter: (row, column, cellValue, index) => {
-                    if (cellValue !== null && cellValue.length > 1) {
+                    const correctedStr = cellValue.replace(/'/g, '"') // 替换单引号为双引号
+                    const list = JSON.parse(correctedStr)
+                    if (list.length == 3) {
+                        return '全部'
+                    } else {
                         let str = ''
                         for (let i = 0; i < cellValue.length; i++) {
                             if (cellValue[i] === '1') {
@@ -77,8 +91,6 @@ export default {
                             }
                         }
                         return str.substring(0, str.length - 1)
-                    } else {
-                        return cellValue === '1' ? '选择题' : cellValue === '2' ? '判断题' : cellValue === '3' ? '服务五句话' : cellValue === null ? '全部' : '未知类型'
                     }
                 }
             }, {
@@ -108,6 +120,9 @@ export default {
         const total = ref(0) // 定义一个响应式数据
         const getData = (pageSize, pageIndex, form) => {
                 currentPage.value = pageIndex
+                if (form.paperId === 'undefined') {
+                    pageIndex = 1
+                }
                 getResquest(`/paper_opt/paperSelect?page_size=${pageSize}&pageIndex=${pageIndex}&arges=${form}`) // 使用 ` 反引号 然后 ${形参} 引用
                 // getResquest('/requests/', { page_size: pageSize, page_index: pageIndex })
                 .then(

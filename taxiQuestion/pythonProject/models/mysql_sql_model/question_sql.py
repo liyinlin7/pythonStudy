@@ -21,11 +21,18 @@ class QuestionSql(MySqlMode):
            :return: 没有返回值，该函数目前打印查询结果，但注释表明之前有返回字典列表的意图。
            """
         dic = dict(dic)
+        print(dic.get( 'question_id'))
         type =  [dic.get( 'type' )] if dic.get( 'type' ) != '' and dic.get( 'type' ) is not None and  dic.get( 'type' ) != [] else None
-        question_id = [dic.get( 'question_id' )] if dic.get( 'question_id') != '' and dic.get( 'question_id' ) is not None else None
+        if dic.get( 'question_id') == '' or dic.get( 'question_id' ) is None:
+            question_id = None
+        elif len(dic.get( 'question_id').split(",")) > 1:
+            question_id = dic.get( 'question_id' ).split( "," )
+        elif dic.get( 'question_id').split(",") != '':
+            question_id = [dic.get( 'question_id' )]
         question_type = dic.get( 'question_type' ) if dic.get( 'question_type' ) != [] else None
         range = dic.get( 'range' ) if dic.get( 'range' ) != [] else None
         collect = dic.get( 'collect' ) if  dic.get( 'collect' ) != [] else None
+        print(question_id)
         columns = {
             'question_id': None,
             'question_type': None,

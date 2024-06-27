@@ -6,6 +6,7 @@ from models.myysql_sql_custom.paper_custom_sql import PaperCustomSql
 from models.myysql_sql_custom.question_custom_sql import QuestionCustomSql
 from models.myysql_sql_custom.paper_question_custom_sql import PaperQuestionCustomSql
 from models.my_sql_driver import MySqlDriver
+from models.mysql_sql_model.question_sql import QuestionSql
 import json
 import time
 import uuid
@@ -14,6 +15,8 @@ paper_opt = Blueprint('paper_opt', __name__)
 paperCustomSql = PaperCustomSql()
 questionCustomSql = QuestionCustomSql()
 paperQuestionCustomSql = PaperQuestionCustomSql()
+question_sql = QuestionSql()
+
 
 # 查（按 id 查）
 @paper_opt.route('/query_id', methods=['GET'])
@@ -153,3 +156,42 @@ def query_update_paper_question():
             return jsonify( {'message': '提交答案失败'} ), 404
     else:
         return jsonify( {'message': '参数错误'} ), 500
+
+@paper_opt.route('/errQuestion', methods=['GET'])
+@cross_origin(origin='http://127.0.0.1:8080', supports_credentials=True)
+def query_err_question():
+    page_size = request.args.get( 'page_size', type=int, default=10 )
+    page_index = request.args.get( 'pageIndex', type=int, default=1 )
+    form_ = request.args.get( 'arges', default=None )
+    __form = None
+    # print(form_)
+    if form_ == '[object Object]' or form_ == 'undefined':
+        __form = {}
+    elif form_ is None:
+        __form = {}
+    else:
+        # print('form_', form_)
+        __form = json.loads( form_ )
+    # print('__form', __form )
+    question_id = __form.get( 'question_id' ),
+    question_type = __form.get( 'question_type' ),
+    range = __form.get( 'range' ),
+    collect = __form.get( 'collect' ),
+    type_op = __form.get( 'type_op' ),
+    questionBool = __form.get('question_bool')
+    __result = paperQuestionCustomSql.paper_question_err( questionBool=questionBool )
+    if len( __result ) != 0:
+        question_list = __result[0: -1]
+        print( question_list )
+        dic = {
+            'question_id': question_list,
+            'question_type': list(question_type[0]),
+            'range':  list(range[0]),
+            'collect':  list(collect[0]),
+            'type': type_op[0]
+        }
+        result, total_count = question_sql.question_select_and( dic=dic, page_size=page_size, page_index=page_index )
+        # print(result)
+        return jsonify( {'message': '成功', 'data': result, 'total': total_count} ), 200
+    else:
+        return jsonify( {'message': '查询失败或没有数据'} ), 200
